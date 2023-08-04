@@ -1,0 +1,746 @@
+Use test certificates that do not correspond to actual users.
+The subject can contain many different types of identifying data.
+For example, the above subject would be typed as follows:
+The program creates a certificate store that contains digital certificates.
+After you have finished recording, open the test for editing.
+To remove temporary files from the Microsoft Internet Explorer cache:
+Kerberos is not supported on other protocols, environments, or browsers.
+User logon names of the form ABC\kerberostester are not supported.
+Uninstalling a previous version does not delete your test assets.
+A new release might include enhancements to the default reports.
+This option deletes the page cache when a test starts.
+Select to enable the collection of response time breakdown data.
+Not all test elements support response time breakdown data collection.
+Lists details about the certificate stores that the test uses.
+Searches the child test elements in addition to the element.
+Clear to skip existing substitution sites when results are returned.
+Click this field to display a list of mathematical operators.
+Click this field to set a value for the requirement.
+In general, supplemental requirements are those that are tracked internally.
+Select to see only the requirements that you have defined.
+Click to display in red test elements that have errors.
+Click to retain the search text from session to session.
+Click to automatically transform data when a test is generated.
+This is a common practice with DOJO- and AJAX-based applications.
+If this time is exceeded, a new page is generated.
+Specifies how web addresses (URLs) are rewritten during test execution.
+Select to give every other table row a gray background.
+The alternating background helps make the tables easy to read.
+Warn of lost changes when a dynamic tab is modified
+Specifies which page is displayed when an HTTP test runs.
+Click an event to drill down for more detailed information.
+Displays a hyperlink to the primary request for the page.
+Specifies the name of this set of enabled performance requirements.
+Indicates the HTTP request method that was used during recording.
+Specifies the name of this set of defined performance requirements.
+By default, the name is the URL of the request.
+The Page Health report shows the health of each page.
+Indicates the data transformation that is applied to the request.
+Previous versions of tests support only waiting for primary requests.
+Indicates the data transform that is applied to the response.
+Indicates the character set to be used for the response.
+Looping: schedule vs. test: used by taddloop.dita (test), taddloops.dita (schedule)
+A portion of the test editor can occasionally be obscured.
+Click Ctrl+Alt+&gt; or Ctrl+Alt+&lt; to enlarge or reduce the window.
+Page Percentile report short description: used by contexts_HTTP_reports.dita and upercentreptprop.dita
+Reports are available during all phases of the test process.
+To resize the schedule window, do one of the following:
+This does not give you much control over the run.
+Collect Response Time Breakdown data for WebSphere Application Server 8.5.
+Your computer must have a sufficient number of TCP/IP ports.
+After the installation, the agent automatically connects to the workbench.
+An exception that could not be handled occurs during processing.
+Rule file should not be edited on this product installation.
+Creates a variable that can be used by substitution sites.
+Add child conditions to specify the substitution site to find.
+Add child conditions to specify the data sources to delete.
+Add child conditions to specify the substitution sites to delete.
+Add child conditions to specify the variable assignments to delete.
+The attempts per second during the most recent sample interval
+The number of attempts during the most recent sample interval
+The maximum number of dynamically provisioned agents has been reached.
+Increase the preference value and set it to wait longer.
+A progress indicator that shows the state of the run.
+The minimum, maximum, and average response time for all transactions.
+Each bar represents a page that you visited during recording.
+The minimum response time for each page in the run.
+The average response time for each page in the run.
+The maximum response time for each page in the run.
+The number of attempts per second to access each page.
+The table after the graph provides the following additional information:
+The table under the bar chart lists the same information.
+This behavior differs from the behavior recorded during test creation.
+If this is expected and understood increase RPT_VMARGS rptMaxRedirection parameter.
+Check the Error Log for further information on the error.
+4. An error was encountered while deploying to this directory.
+Duration time specified is less than what has already elapsed
+The specified agent is not in contact with the workbench.
+If the problem persists, inspect error and take corrective action.
+A statistical adapter is missing reference to the target result.
+User authentication is required to access reports in the cloud.
+Error while processing a message from the IBM Agent Controller.
+Check the test log for any failures from virtual users.
+To learn more about license keys, see the installation guide.
+5. Select the appropriate value from the Operating system list.
+Please refer to the Problem Determination Log for more details.
+At present no commands have been sent to this driver.
+Failed to create a temporary file to save test data.
+Please check to make sure you have installed this transformer.
+Test log is unavailable, no test results returned to RQM.
+Adapter was stopped while preparing to run an RQM script.
+There are no results for the attempted test script run.
+Unexpected error occurred while processing an import request from RQM.
+Unable to attach the following file to the RQM results.
+Ensure user has permission to create directory in that location.
+Error occurred while translating RQM server execution variables to RPT.
+The project referenced does not exist on the shared location.
+Details:  A failed reference occurred in a prior request.
+Right-click the substitution site and select Go To &gt; Reference.
+When troubleshooting failed references, start with the first error message.
+Check the web server's SSL error log for more details.
+Change the loop handler to point to an existing loop.
+The time after which the synchronization point is automatically released.
+The rate, per second, at which the transaction was completed.
+You might encounter some of these problems while performance testing:
+Confirm the server port number on the test workbench computer.
+Disable firewalls on the workbench computer and the agent computers.
+Pay close attention to the memory and disk space requirements.
+All modes of the adapter use the Eclipse error log.
+Ensure that the adapter has the required protocol extensions installed.
+The number of verification points that passed in the run
+The number of verification points that failed in the run
+This report summarizes the functionality of loops in a test.
+Preference settings control access of reports from external web browser.
+You can set the following preferences for the web reports:
+To associate a digital certificate with a test for playback:
+Selecting this check box causes the delay to vary slightly.
+To put a group of schedule elements into a transaction:
+In the schedule, select the test elements to group together.
+You can even write scripts to process the exported results.
+An absolute offset starts with the first byte of data.
+A relative offset is measured from the current cursor position.
+This adds another run to compare with the base run.
+The Compare report compares the time ranges of each stage.
+Display this report automatically at the completion of a run.
+netsh -c Interface ip add address name="Gig Ethernet" addr=10.10.0.21 mask=255.255.0.0
+To set a launch configuration for a schedule or test:
+Create a PKCS#12-encoded file containing the certificate and private key.
+You need the CA private key file to sign certificates.
+You can define performance requirements for elements in a test.
+A new schedule that contains one user group is displayed.
+This selection automatically generates a report that compares each stage.
+Used for your notes and comments regarding the schedule element
+The default setting is to use the recorded think time.
+Advanced (at the bottom of the Schedule Element Details area)
+The first color is assigned to the first graphic element.
+Click the user group whose virtual users will use aliasing.
+You want to use some, but not all, network interfaces.
+This service must be running to collect resource monitoring data.
+The encryption strength depends on the length of the passphrase.
+Open the Performance Test Runs view, and expand the tree.
+Display items based on a comparison with the specified value.
+Events with other verdicts are not shown in the report.
+One functional report is generated for each selected report design.
+To do this, set the RPT_VMARGS property, which overrides RPT_DEFAULT_MEMORY_SIZE.
+You can stop a test run before it is complete.
+On the User Load tab, modify the stages as necessary:
+The following figure illustrates a schedule with two 16-minute stages.
+For each graphic type, only the applicable controls are displayed.
+Select to edit the default Y axis label (charts only).
+Select to specify the graphic height in pixels (charts only).
+Select to specify the graphic width in pixels (charts only).
+Assume that you want to make bar graphs three dimensional:
+The test creation wizard starts when you record a test.
+You will also see this name in the Test Navigator.
+You can generate a new test from a recorded session.
+The test is regenerated and opened in the test editor.
+A list of the synchronization points in the run opens.
+You can also view reports remotely from a web browser.
+Update the Server URL field with the new server name.
+Configure the adapter again to point to the new URL.
+By default, the adapter uses the name of the computer.
+All other assets, such as test results, are not required.
+Copy the test projects to share into the shared directory.
+Do not use the workbench while the adapter is running.
+The following guidelines improve the success of long duration tests:
+This integer shows the relative proportion that each test runs.
+A test runs on the local computer, with one user.
+Generally, you should run user groups at a remote locations.
+Informational messages, which include system state, require no corrective action.
+Collects events that correspond to actions executed in the schedule:
+Primary test actions include schedule actions, plus the following actions:
+For Citrix tests, connection elements, window events, and image synchronizations
+Secondary test actions include primary test actions, plus this information:
+For example, you could add map the IP address 123.4.5.6.
+You can insert split points when you record a test.
+Configuring Internet Explorer for recording from a secure web site
+Releases the users one by one from a synchronization point.
+All users are distributed randomly between 1 and 4 seconds.
+A timeout of 0 means that there is no timeout.
+Right-click the graph or table that you want to change.
+The newly specified time range is stored with the report.
+Import the MyNewDataTransformFeature and MyTransformProject projects into the new workspace.
+Start another copy of the workbench to debug your transformations.
+In the Export Reports window, select the options as follows:
+You can change the test preferences to export results automatically.
+An agent can be in one of the following statuses:
+To add users, type the number of users to add.
+Specify the location of agents that are in the cloud:
+The CSV file contains the last value for each counter.
+The selected counter is listed in the Counter Details table.
+This mechanism reduces the launch time for subsequent test executions.
+Expect an average provision time between fifteen and thirty minutes.
+You can also use a promotional code for trial usage.
+You can add or change a color in the palette.
+Record an application that is based on GWT version 2.4.
+Re-use of existing connections can take advantage of keep-alive connections.
+Do not put the class path file under source control.
+These two tests use different access methods for the datapool.
+From the color palette that opens, choose a different color.
+The agent controller is not running on the local computer.
+When you open a schedule, you can set its properties.
+A value of 100 causes no change in think times.
+To restore the original think times, clear this check box.
+For SAP tests, this option reports information on SAP screens.
+Use this page to initialize variables at the schedule level.
+An existing connection was forcibly closed by the remote host.
+To determine why virtual users stopped before the stage completed:
+Simplify the workload by running one user in one stage.
+The most common standard for digital certificates is the X.509 standard.
+The administrator digitally signs each certificate using the system CA certificate.
+The subject describes the certificate owner, but is not necessarily unique.
+Record a test that requires that you use a digital certificate.
+Create a certificate store by running the supplied KeyTool command-line program.
+Browse the website as you typically would to record a test.
+Roaming mode with TruePass applet version 7.0 and later are supported.
+An LDAP directory tree typically reflects political, geographic, or organizational boundaries.
+However, this does not mean that the response times are similar.
+However, this does not mean that the elapsed times are similar.
+Contact your system administrator for more information about the server realm.
+Lists the locations from which response time breakdown will be collected.
+Select one or more requirements and click to remove the definition.
+If you decide to substitute, the conflicting substitutions are automatically removed.
+Select to enable the use of performance requirements for this schedule.
+Click to set protocol-specific options for all tests in the schedule.
+Enables you to inspect the settings before you actually set them.
+An example of such an application is Rational DOORS Next Generation.
+Generate a new page if delay between requests is greater than
+Verification points can also be enabled or disabled within specific tests.
+Clear the check box if you plan to correlate Referers manually.
+You can also select a brown, gray, or red-green-blue color scheme.
+Select to enable the use of performance requirements for this test.
+Click this field to set a numeric time value in milliseconds.
+Select to prevent undefined performance requirements from appearing in the table.
+Use this option to view the substitutions in Page Elements report.
+Select to prevent the table from including undefined performance requirement candidates.
+Select one or more requirements, and click to remove the definition.
+Indicates the character set to be used for the page request.
+Use this method to run a test at a set rate.
+Loops in tests reuse the server connection during each loop iteration.
+However, different users are likely to use the same datapool row.
+Each row has an equal chance of being selected each time.
+To resize the Test Editor window, do one of the following:
+The new size remains the next time you open the window.
+Double click the blue line to return to a 50/50 ratio.
+The defaults, 85, 90, and 95, are sufficient for most purposes.
+List the various environments to be tested and generate test configurations
+However, schedules are much more than simple vehicles for running tests.
+Hover at the left side of the Schedule Element Details area.
+User groups enable you to group tests in a logical order.
+With user groups, you can control test execution in several ways:
+Export of event log to a CSV, XML, or text file.
+Start only one adapter per product installation on a given computer.
+The test log sets a verdict for each run as follows:
+Creates a datapool column that can be used by substitution sites.
+Creates a reference in data that matches a specified regular expression.
+Add child conditions to specify the custom code elements to delete.
+Open the child preference page under Test &gt; Performance Resource Monitoring.
+Preferences on cloud workbench will be set to this new location
+The average number of page elements attempted for the entire run
+The percent of successes (matches the information in the bar chart)
+The provisioning service is reporting the user credentials are not valid.
+The response from the web server was in an unexpected format.
+Aborting         cloud execution.
+The standard deviation of the average response time for all pages.
+The table under the bar chart provides the following additional information:
+The chart scales automatically to accommodate the highest resource counter value.
+The size of the page contributes to the response time calculation.
+The Error Conditions section displays the number of error conditions met.
+The Error Behavior section displays how each error condition was handled.
+Examine the server and agent computers to find and fix bottlenecks.
+The response body MAY be incomplete due to a missing "chunk".
+If missing chunk was last (zero length) chunk, data is complete.
+We were redirected to the same URI which issued this request.
+The Test Execution Framework was not able to deliver an Executor.
+For more information, see the Troubleshooting section of the online help.
+Disable firewalls on both the local computer and the agent computer.
+An Executor was not returned and neither was an error message.
+3. The IBM Agent Controller must have authority to this directory.
+This link can also break if the datapool file is deleted.
+Schedule must be in the Running state to change stage duration
+Ensure that the agent name is spelled correctly in the location.
+Look for more details about the error in the message posted.
+The file path specified for the Zip Utility  is invalid.
+Please update the operating system to match and then try again.
+The Agent Controller needs to be started by the root user.
+A monitoring process indicates that the test log loader stopped prematurely.
+The combination of transformer and feature you have selected is invalid.
+The combination of feature and transformer you have selected is invalid.
+Verify that the elements containing the Silverlight decoded data are correct
+The GraniteDS encoder did not work because of the indicated reason.
+This may cause the attached HTML report not to render correctly.
+RQM remote resource access is not supported for pre-8.0 SOA assets.
+You can only execute scripts which are in the adapters workspace.
+Skipped request: It could be that provided password was not ok
+Error while generating test from Generic Service Client: Can't show wizard
+For more information search the help for the data correlation topics.
+The request contains a value that might need to be correlated.
+Attempt to add object to Schedule which is not a UserGroup
+The loop name specified in the loop handler does not exist.
+The second table lists all standard performance requirements that you defined.
+The Overall Summary page contains two tables and two pie charts.
+The Details page provides a detailed analysis of standard performance requirements.
+All users have arrived, been release manually, or have timed out.
+The average elapsed time for all transactions in the entire run.
+The graphic bar is displayed only if there are no errors.
+The report also shows the 10 slowest transactions in a run.
+Perform the following steps to confirm your installation is properly configured:
+Verify the network connectivity between the workbench computer and agent computers.
+Restart the agent computers and verify the Majordomo process is running.
+Set the value equal to true; the default value is false.
+The adapter is displayed as red in the selection dialog box.
+To have your tests verify these items, complete the following steps:
+This tab displays the health of each iteration of a loop.
+Click this option to allow access to reports without login credentials.
+Click this option to provide an authentication layer for accessing reports.
+You can set a loop within a schedule or a test.
+In the Test Navigator, browse to the schedule and double-click it.
+In the Test Navigator, browse to the schedule, and double-click it.
+Type the percentage of the workload that the user group represents.
+If you do not use this form, the connection attempt fails.
+Click to set the selected user groups to the same size.
+You can also insert split points into a test during record.
+In the Test Navigator, browse to the test, and double-click it.
+To change the log level, select any of the following options:
+The following example creates an alias on the en1 network interface.
+You want the launch configuration to appear in your toolbar menu.
+You want the launch configuration to be available to other users.
+You can export projects, schedules, tests, and test results with dependencies.
+This file contains only the public key, not the private key.
+If a value contains spaces, enclose the value in quotation marks.
+The name of the certificate file to add, remove, or generate.
+If no subject is specified, a default subject will be provided.
+This measures the average response time for all of the pages.
+To define a performance requirement for the elements in a test:
+In the Test Navigator, browse to the test and double-click it.
+To navigate to the original requirement definition, double-click the requirement row.
+Kerberos user names and passwords can be associated with a datapool.
+Enable resource monitoring to capture system resource data during performance testing
+Other test schedules or applications might still use the data source.
+This data might include potentially sensitive information, such as stored passwords.
+You must adjust the security settings to collect resource monitoring data.
+The default security settings do not allow response time breakdown collection.
+The recording session file is unrecoverable if the passphrase is lost.
+To correct this situation, increase the memory allocation for that computer.
+In some cases the best solution is to add another agent.
+The schedule execution stops after the current loop iteration is complete.
+Note that a long time limit might delay the next stage.
+Select to edit the default X axis label (line charts only).
+To create a baseline report, do not add the counters now.
+You must use a PKCS#12 digital certificate when recording performance tests.
+You can release virtual users from synchronization points during a run.
+You must have inserted synchronization points to a test or schedule.
+To change the default report, Open the Default Report Preferences page.
+If the Rational Quality Manager server is renamed, complete these steps:
+Assume that a random selector contains two tests: Browse and Bid.
+When an agent is lost, by default, the schedule is stopped.
+In the Schedule Contents area, click the name of the schedule.
+Select this option to limit the processing required by the workbench.
+For HTTP tests, HTTP page-related actions (attempts, hits, and verification points).
+For HTTP, SAP, and Citrix tests, provides statistics for all actions.
+One group contains four users, and one group contains 1000 users.
+The problem determination logs contain internal information about the playback engine.
+To set the level of problem-determination logging and the sampling rate:
+You can collect errors only, errors and warnings, or all events.
+The time that the first byte and last byte were sent.
+The time that the first byte and last byte were received.
+For Citrix tests, synchronization points, delays, text elements, and logoff elements.
+For Citrix tests, think time information, mouse actions, and keyboard actions.
+At the end of the hosts file, add your IP mappings.
+to two logical hosts, as show in the bottom two lines:
+The tests are generated using the test names that you specified.
+For example, you can enter custom start and stop times to:
+Adjust a stage's time range to account for incorrect settle time.
+Under Staged Run Report Focus Behavior, select one of these options:
+Implement the transformData and unTransformData methods to create your data transformations.
+The exported report can be, displayed and printed, from any browser.
+The file is displayed after the command line run has completed.
+The CSV file will contain the last value for each counter.
+Use this option to share customized report formats with other users.
+Agent has not contacted the workbench for the past 10 seconds.
+In the report, a stage is displayed as a time range.
+If the connection is established, specify the following properties for workbench:
+The choice of a host type can also determine response time.
+A bare metal computer means a fully dedicated piece of hardware.
+This option applies a fixed time delay on the schedule run.
+Specify the number of users to run on a control agent.
+By default, the cloud locations are saved in the current project.
+By default, the non-secure port number for web reports is 8080.
+By default, the secure port number for web reports is 8443.
+You must use the same login credentials to access reports remotely.
+Use the website to generate the order number or promotional code.
+This value indicates the number of entries allowed for a user.
+The colors in the palette are applied automatically to each counter.
+Typically, the partially run report is useful for debugging specific issues.
+Select a test element or request that contains the encoded data.
+If the performance schedule contains loops, move the loops into tests.
+Accept all of the default values except for network access mode.
+To start the agent controller, do one of the following steps:
+Staggering users avoids overloading the system, which can cause connection timeouts.
+Time limit for a user to respond to a stop request
+Use this option to run a schedule quickly for testing purposes.
+Reports the number of active and completed users in the run.
+Export the variables defined at the schedule level to a file.
+The number that you select is sampled from each user group.
+Specify the number of users to sample from each user group.
+The workbench has lost communication with one or more agent computers.
+Examine the problem determination log for error messages or exception messages.
+The local computer cannot communicate with one or more agent computers.
+When you open a user group, you can set these properties.
+Indicates that the user group should be run on your computer.
+Use this page to initialize variables at the user group level.
+Check the variable to determine where the initialization should have happened.
+Increase the test log level and decrease the number of users.
+The private key is always kept private (meaning, it is never transmitted).
+There are four types of certificates that can be used in testing:
+Typically, however, a signed certificate is used to represent a particular user.
+Repeat this process to substitute passphrases from the datapool column containing passphrases.
+Entrust provides digital identity and encryption technologies to governments and private industry.
+You can now run tests against servers that require Entrust TruePass authentication.
+Typical protections that GSS-API wrapping provides include confidentiality (secrecy) and integrity (authenticity).
+Tests and schedules are migrated automatically when you modify and save them.
+System B might have response times of 1, 20, 25, and 2.
+System B might have elapsed times of 1, 20, 25, and 2.
+If you speed playback up dramatically, requests might occur out of order.
+Click to add a reference to a datapool for test to use.
+The table displays the performance requirements that are defined in the test.
+When you clear this preference, it is easier to read a test.
+Content verification points verify whether specified strings are present in response data.
+Do not generate a new page if think time is less than
+If your tests contain fewer pages than expected, try a shorter interval.
+If your tests contain more pages than expected, try a longer interval.
+Enter the limit of response data, in KB, that the generator saves.
+Click to specify the types of verification points to be automatically included.
+Click the color button to set the color of the report titles.
+Add active time range to a comparison report for all time ranges
+Select this option to display a warning when you modify a report.
+Indicates whether the page title verification point is enabled for this page.
+Specifies additional content data that might be needed to clarify the request.
+Select to prevent undefined performance requirement candidates from appearing in the table.
+If you disable wrapping, no row can be used more than once.
+The following table shows the row that is accessed in each iteration:
+Simple CSV format contains only the last data value in the run.
+Comments can be useful if you share rule-set files with other testers.
+Check feature coverage against test plans, test inputs, configurations, and so on.
+Export of web-based executive summary and counters are now saved in HTML.
+The first approach automatically generates an audit test in the cloud schedule.
+Cloud-based control agents cannot detect data center or physical host bandwidth bottlenecks.
+Typically, you use this file when asked to by IBM Software Support.
+Schedules are typically run on a remote server that has high-end configuration.
+Also, it is recommended to use the same release version for both.
+You can customize how data is correlated by using data correlation rules.
+Creates a substitution site in data that matches a specified regular expression.
+Changes the name of a data source that matches a regular expression.
+Changes the name of a substitution site that matches a regular expression.
+Removes the links between substitution sites and references and other data sources.
+This report summarizes the most important page element data for the run.
+The graphs in this report show time intervals, attempts, hits, and successes.
+The average response time for all page elements in the entire run
+The average response time for that page element during the entire run
+Server-confirmed cache hits occur when the server returns a 304 response code.
+A low level unexpected error was returned from the cloud manager system.
+The table beneath the graph provides more detailed information for each page:
+The bar chart shows the 10 pages with the lowest success rate.
+Verify that the NTLM authentication context values for this request are correct.
+Otherwise, try to resolve the host name using the command nslookup &lt;hostname&gt;.
+This can occur if an incorrect user name or password is supplied.
+An error occurred during encoding of an annotated execution history event property.
+You can use the asterisk (*) character to specify a wild card.
+One or more test(s) are referencing a different version of the datapool.
+Whenever a datapool is used, a reference is created in the test.
+Please ensure that either all locations include this option or none do.
+The options selected might be no longer valid with the cloud manager.
+Cloud execution is         stopping.
+There was an error while updating the workspace after downloading remote files.
+Check network connectivity between that machine and the workbench including any firewalls.
+The Microsoft Silverlight decoder did not work because of the indicated reason.
+Verify that the test elements containing the Silverlight encoded data are correct
+The Microsoft Silverlight encoder did not work because of the indicated reason.
+Adapter unable to start test because RPT is already executing a test.
+Please enter proper credentials in the Eclipse Quality Adapter preference page (Windows-&gt;Preferences).
+If file was hand edited make sure parameters are the correct format.
+Error occurred while update the run status back to the RQM server.
+This may cause the RQM test progress page to contain inaccurate data.
+Please set the name in the Eclipse Quality Adapter preference page (Windows-&gt;Preferences).
+Likely the run was already shutting down when the request came in.
+Please update your entire SOA project to 8.0 or greater before sharing.
+The script path specified by RQM does not seem to be valid.
+This suggest RQM does not support RTW script type introduced in 4.0.3.
+Change the file so it follows the specified format supplied by support.
+The Supplemental Details page shows a detailed analysis of supplemental performance requirements.
+The number of virtual users that have arrived at the synchronization point.
+The time between the first user's arrival and the first user's release.
+The average net server time for all transactions in the entire run.
+The table under the graph lists the following information for each transaction:
+The table beneath the graph provides more detailed information for each transaction:
+Ensure that the test-script points to a shared location that still exists.
+This report shows the status of the verification points in your tests.
+Select this check box to control schedule execution from a web browser.
+A page in the Details area of a test or a schedule
+You can add a transaction to a test or to a schedule.
+This is useful in the Transactions report, which lists transactions by name.
+Typically, you assign user groups a percentage, rather than an absolute number.
+On the third page of this wizard, you can specify file locations.
+Click to configure all user groups to run on the workbench computer.
+Select the appropriate format, such as bytes or ASCII, from the list.
+Select from the list the encoding to use for displaying binary data.
+You can change the log level to determine problems during a run.
+In the Test Navigator, open the location that represents the agent computer.
+Enter the IP address and the subnet mask of the new alias.
+You can export and import test assets to collaborate with other testers.
+The target project must have the same name as the source project.
+The following instructions describe an older method of copying a test project.
+Otherwise, you might not be able to locate your imported test assets.
+Be sure to export all the datapools that the exported tests require.
+In this case, missing libraries must be removed from the build path.
+The project was imported into a workspace on a different disk drive.
+You can change the name of a performance requirement to improve readability.
+In general, supplemental requirements are used for requirements that are tracked internally.
+These requirements specify acceptable thresholds of performance and validate service level agreements.
+Click the performance requirement to define, and add a definition, as follows:
+You can define performance requirements in a test or in a schedule.
+You can collect response time breakdown data from HTTP or SOA tests.
+In the Test Navigator, expand the project until you locate the run.
+When you edit a test, the modified items appear in italic type.
+The italic type changes to regular type after you save the test.
+Before you can enable virtual users to use IP aliases, you must:
+If this is a new schedule, the Data Source table is empty.
+These errors can occur if the data sources are unreachable or invalid.
+If you export a schedule, it contains the data source configuration information.
+In the Test Navigator, double-click the results that you want to filter.
+To add a loop that controls the iteration rate for running tests:
+Select to see a "window" of data displayed on the X axis.
+Select to swap the columns and rows in the table (tables only).
+Select to change the multiplier value for the Y axis (charts only).
+You can filter a report by count, by value, or by label.
+By default, the workbench is configured with restricted or limited strength ciphers.
+You must configure your browser before you attempt to record Kerberos applications.
+To regenerate a complete test from a recording that contains split points:
+Create a schedule to model workloads by adding user groups and stages.
+To start the adapter from the command line, run the adapter command:
+Stop the adapter before you open the workbench in the configured workspace.
+In the Test Navigator, expand the project until you locate the schedule.
+For Citrix tests, a new process is created for each virtual tester.
+So, running a schedule without the lost agent might give unpredictable results.
+Before you run a user group at a remote location, verify that:
+A reasonable number of virtual users will run at the remote location.
+Warning  messages, which might indicate potential problems, require no corrective action.
+For example, eastern standard time (EST) is 5 hours behind UTC time.
+The start and stop time of each selector, if selectors are set.
+Transaction start and stop events, if transactions are present in the test.
+Any failures or errors are rolled up to the test verdict level.
+Expected and actual values of page-level verification points that you have defined.
+Repeat this step between recorded user actions as needed to split tests.
+You can insert a synchronization point into a schedule or a test.
+A user reaching a synchronization point after a timeout is not held.
+In that case, you are prompted for the authentication type and credentials.
+Filter out data from the ramp-up or ramp-down phases of test runs.
+Transforming automatically binary data in performance tests into a more readable format
+Includes the result name, node name, and time range for that data.
+You must run a schedule to change the number of virtual users.
+After the run, you can compare reports to verify response time accuracy.
+You can export information from an entire report as an executive summary.
+To open a report, in the Test Navigator view, double-click a run.
+In the Test Navigator view, double-click a run with counters to export.
+The exported report can be displayed and printed from any web browser.
+You use the label filter for all the counters in a graph.
+You can include or exclude counters whose label contains a filter value.
+You can add multiple counters for a graph based on your requirements.
+The deployment directory stores the files that are required for test execution.
+After you change a report, the changes are saved to the workspace.
+Charging for a run depends on the number of virtual tester hours.
+If the validation is successful, the cost of the run is displayed.
+This process might take some time, depending on the number of agents.
+Click the user group for which you want set the cache limit.
+You can use a condition to highlight a specific performance problem area.
+A valid start time is any value between 0.0 and end time.
+You must have access to the classes that contain the exchanged objects.
+This can cause the agent computer to exhaust all available TCP/IP ports.
+If a test contains loops, virtual users attempt to re-use existing connections.
+See the installation guide for more information on managing protocol license keys.
+Put the different project assets in separate folders under the main project.
+This enables the project to be seen and imported by another user.
+During a session, keep schedules and tests checked out for easy editing.
+When you exit Eclipse, you are prompted to check them back in.
+The Search and Replace preferences control the behavior of search and replace.
+The listener port for HTTP recording is in use by another application.
+The agent controller coordinates schedule playback between the workbench and agent computers.
+Select this check box to use the variable values from a file.
+This data shows you the response time breakdown for each page element.
+Export the variables defined at the user group level to a file.
+These certificates, along with the public and private keys, are distributed to users.
+When the browser is challenged by the server, it will produce its certificate.
+To use a certificate store with a datapool, open the test for editing.
+This makes it convenient for use in kiosks and other public user environments.
+Recording tests with Entrust TruePass applications works just as regular HTTP recording does.
+You must use a host name or IP address to record the traffic.
+If an address cannot be resolved, your test shows a slower connection time.
+The authentication server in a Kerberos environment is called the Key Distribution Center.
+Before you install a new version, uninstall the previous version of the product.
+standard deviation for HTTP pages: used by tpagel.dita, rperform.dita (3 times, rpercnt, rtrans.dita)
+System A might have response times of 11, 12, 13, and 12 ms.
+System A might have elapsed times of 11, 12, 13, and 12 ms.
+You can specify a range from no delays to twice the recorded length.
+To fix this problem, reduce playback speed until the test runs correctly again.
+You can enable response time breakdown collection at the parent or page level.
+Include sites that are contained in, or overlap with, an existing substitution site.
+For example, you can choose to automatically transform binary data to ASCII format.
+Enter the longest delay, in milliseconds, that the generator allows between page requests.
+By default, the Referer field in an HTTP request header is correlated automatically.
+The downside of this setting is that it can result in incorrect correlations.
+The most common example of losing changes occurs in the Page Percentile report.
+Indicates whether a test value contains special characters such as spaces or commas.
+Indicates the additional delay, in milliseconds, to wait before this request is issued.
+This action models the behavior of a user closing and reopening a browser.
+This option prevents virtual users from selecting duplicate values (for example, account IDs).
+For example, assume a selector contains six blocks set to the following weight:
+Use this page to select the default report that opens during a run.
+Use this page to export the test log to a flat text file.
+The test plan can be configured to meet the needs of your organization.
+Manage project requirements and test cases and establish the interdependencies between the two
+This can also be used to measure test progress and to analyze trends.
+Export of execution event console output to a CSV, XML, or text file.
+If you are stress testing a server, your test typically contains a loop.
+Increase the statistics sample interval to 30 or 60 seconds for long-running tests.
+If test generation is taking a relatively long time, try shorter recording scenarios.
+You can then edit the tests by adding dynamic data and verification points.
+The agents are installed on computers to generate the load on the application.
+Rule file refer to a rule that is unknown on this product installation.
+Reference: Customize how data is correlated in performance tests by using correlation rules
+There was an unspecified error from the cloud manager when validating account preferences.
+This graph provides an overall idea of the response times for each page.
+The percentage of page title verification points that passed, if any were set.
+This is the run duration, which is displayed in hours, minutes, and seconds.
+With this information, you can evaluate system response during and after the test.
+The bar chart shows the average response time of the 10 slowest pages.
+If nslookup is also unable to resolve the name, contact your network administrator.
+For authentication to playback correctly a challenge must be recorded during test creation.
+The server did not return the response data before the timeout interval elapsed.
+To open the Error Log, click Window &gt; Show View &gt; Error Log.
+2. The Deploy Directory path must be valid for the Target Operating System.
+A location template file referenced by a location file is missing or inaccessible.
+The specified agent name is not resolving in the Domain Name System (DNS).
+Upgrade the RPT Agent on the machine specified to match the workbench version.
+Please adjust the number of Users to 1 in the schedule and rerun.
+As a result, the capabilities that this license enables are not be available.
+While waiting for an acknowledgement from the Driver, an unrecognized response was received.
+Increase the statistics interval to 60 seconds and try running the schedule again.
+Click Window &gt; Show View &gt; Error Log to open the error log.
+Check that the expected events exist at the end of the test log.
+To decode the data, Rational Peformance Tester requires access to the class definition.
+Verify that the elements containing the GraniteDS encoded or decoded data are correct.
+Display unavailable, no RPT HTML reports will be attached to RQM execution results.
+Multiple test runs were detected when the stop request was received from RQM.
+A request to stop the currently running test has been received by RQM.
+Ensure RQM system has connectivity to the remote repository and the file exists.
+Ensure RQM system has connectivity to the remote repository and the directory exists.
+Performance requirements reported to RQM will be based on the default time range.
+The adapter is attempting to connect to RQM using the default project area.
+Values that typically are correlated include timestamps, dates, ids, and other alphanumeric strings.
+The data correlation code was unable to use the regular expression expected value.
+Failed to add users because the runner is not in a runnable state.
+Passed statuses are shown in green and failed statuses are shown in red.
+This graph provides an overall idea of the elapsed times for each transaction.
+If the ping results fail use the IP address of the workbench instead.
+On the agent machines, set the optional debug flag in the majordomo.config file.
+Within about ten seconds it should automatically pick up the changes to majordomo.config.
+Instead, the recorder controls from the other version of the product are displayed.
+Examine the test log for error messages that the system under test generates.
+When testing shared assets, the execution fails with a low level model error.
+Select this check box to allow access to reports from a web browser.
+Loops provide more sophisticated control than running a simple sequence of consecutive tests.
+Then, at the schedule level, type the initial number of users to run.
+Select the bytes to inspect, and then right-click to manipulate the selected data.
+This page is available only when the binary editor is in read-only mode.
+All characters that are invalid in the current encoding scheme will be discarded.
+However, under certain conditions, you might want to change the problem determination level.
+You can change the behavior of the recorder by changing the preference settings.
+You can also create a report that compares the results of different runs.
+Open the network interface that you want to associate the IP aliases with.
+You can also use a batch file to add and delete the aliases.
+The following example attaches the IP address 9.37.207.29 to the eth0 network interface:
+The alias must be defined on the same subnet as the network interface.
+Typically, you supply a configuration name that is similar to the schedule name.
+The following command line creates a certificate signed with the CA private key.
+The following command line creates a certificate which is valid for 365 days.
+Repeat this step to create as many digital certificates as needed for testing.
+The name of the CA certificate file to use to sign another certificate.
+Use KeyTool to create and add as many digital certificates as you want.
+You now have a digital certificate store that you can use with tests.
+The page contains a table of performance requirements that apply to the schedule.
+A standard requirement can cause a test to have a verdict of fail.
+The elements must be of the same type, for example, all page elements.
+To create a test, you record representative interactions   with an application.
+By creating a schedule, you can accurately emulate the actions of individual users.
+By setting stages, you can model workloads that reflect real-world usage over time.
+The second color is assigned to the second graphic element, and so on.
+You can change the Kerberos realm, user name, and password when editing tests.
+In the Test Navigator, browse to the test, and double-click the test name.
+The list of locations shows whether IP aliasing is enabled at that location.
+Select the check box next to the interfaces that you want to use.
+After the run too, you can regenerate the results for viewing and analysis.
+The tests, which are children of the loop, are controlled by the loop.
+The second stage has a 4-minute change rate and a 4-minute settle time:
+To apply the change to all instances of that report, save the report.
+Select to force the graphic to use the entire width of the view.
+Select to change the multiplier value for the X axis (line charts only).
+This is useful when viewing results during a test run (line charts only).
+The data on this page depends on the graphic type that you selected.
+To configure Internet Explorer to use Simple and Protected GSS-API Negotiation Mechanism (SPNEGO):
+Type the URL for the hostname for which you want to enable SSO.
+To configure Mozilla Firefox to use Simple and Protected GSS-API Negotiation Mechanism (SPNEGO):
+Open the Performance Test Runs view, which shows the details of the run.
+Ensure that the first dialog box contains the projects at the first level.
+By default, the test log editor uses Bugzilla as the defect tracking site.
+In the Schedule Element Details area, add the number of iterations to loop.
+The weight determines the statistical probability that a specific element will be selected.
+Select this option if you are interested only in the number of users.
+Schedule actions report the number of active and completed users in the run.
+Secondary test actions include all primary test actions plus HTTP page element–related actions.
+Configuration messages, which include hardware specifications or system profiles, require no corrective action.
+Depending on the setting that you select, the logs can become quite large.
+For SAP tests, SAP screen information, such as SAP screen title verification points.
+For SAP tests, SAP element information (primarily Set Property or Call Method actions).
+The timeout period begins when the first virtual user reaches the synchronization point.
+Aggregate results are recalculated to reflect only data from the selected time range.
+The binary data in the request is transformed using the specified transformation adapter.
+For example, text in languages that use a double-byte character set becomes unreadable.
+You can create your own data transformations to transform binary data in tests.
+You can then email the report or post it on a web server.
+To further analyze the data, paste the exported report into a spreadsheet program.
+Expand the tree, if necessary, to display the type of report to export.
+In the Test Navigator, double-click the run whose counters you want to export.
+Clear the check box to apply the change only to the current stage.
+In a dedicated hypervisor, the hardware is not shared with other operating systems.
+To apply load for the dummy user group, specify the number of users.
+The CLOUD_ROLE property is available in the cloud location assets in the project.
+Some of the charging aspects for a cloud schedule run are mentioned here:
+An optional promotional code can be used in conjunction with an order number.
+You can customize the color of reports with or without using an expression.
+If you do not select the check box, the report is not generated.
+For example, you might enter custom start and stop times for these reasons:
+A protocol license key is required to use protocol extensions other than HTTP.
+A system under test might react to a sudden change in user population.
+If you select this option, you must view logs to see error messages.
+For HTTP tests, this option reports page-related actions (attempts, hits, and verification points).
+For HTTP tests, this option reports information that is related to page elements.

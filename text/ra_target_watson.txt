@@ -1,0 +1,746 @@
+Utilice certificados de prueba que no se correspondan con los usuarios reales.
+El sujeto puede contener muchos tipos diferentes de datos de identificación.
+Por ejemplo, el asunto anterior se escribirá de la forma siguiente:
+El programa crea un almacén de certificados que contiene certificados digitales.
+Cuando haya terminado de grabar, abra la prueba para editarla.
+Para eliminar archivos temporales de la memoria caché de Microsoft Internet Explorer :
+Kerberos no está soportado en otros protocolos, entornos o navegadores.
+Los nombres de inicio de sesión de usuario con el formato ABC \kerberostester no están soportados.
+La desinstalación de una versión anterior no suprime los activos de prueba.
+Un nuevo release puede incluir mejoras en los informes predeterminados.
+Esta opción suprime la memoria caché de páginas cuando se inicia una prueba.
+Seleccione esta opción para habilitar la recopilación de datos de desglose del tiempo de respuesta.
+No todos los elementos de prueba dan soporte a la recopilación de datos de desglose de tiempo de respuesta.
+Lista detalles sobre los almacenes de certificados que utiliza la prueba.
+Busca los elementos de prueba hijo además del elemento.
+Borre para omitir los sitios de sustitución existentes cuando se devuelvan los resultados.
+Pulse este campo para visualizar una lista de operadores matemáticos.
+Pulse este campo para establecer un valor para el requisito.
+En general, los requisitos suplementarios son los que se rastrean internamente.
+Seleccione esta opción para ver sólo los requisitos que ha definido.
+Pulse para visualizar en rojo los elementos de prueba que tienen errores.
+Pulse para conservar el texto de búsqueda de la sesión a la sesión.
+Pulse para transformar automáticamente los datos cuando se genere una prueba.
+Esta es una práctica común con las aplicaciones basadas en DOJO y AJAX.
+Si se supera este tiempo, se genera una página nueva.
+Especifica cómo se reescriben las direcciones web (URL) durante la ejecución de la prueba.
+Seleccione esta opción para asignar un fondo gris a cada fila de la tabla.
+El fondo alternativo ayuda a que las tablas sean fáciles de leer.
+Avisar de la pérdida de cambios cuando se modifica una pestaña dinámica
+Especifica qué página se visualiza cuando se ejecuta una prueba HTTP.
+Pulse un suceso para detallar más para obtener información más detallada.
+Muestra un hiperenlace a la solicitud primaria para la página.
+Especifica el nombre de este conjunto de requisitos de rendimiento habilitados.
+Indica el método de solicitud HTTP que se ha utilizado durante la grabación.
+Especifica el nombre de este conjunto de requisitos de rendimiento definidos.
+De forma predeterminada, el nombre es el URL de la solicitud.
+El informe Salud de página muestra el estado de salud de cada página.
+Indica la transformación de datos que se aplica a la solicitud.
+Las versiones anteriores de las pruebas sólo dan soporte a la espera de solicitudes primarias.
+Indica la transformación de datos que se aplica a la respuesta.
+Indica el juego de caracteres que se utilizará para la respuesta.
+Bucle: schedule vs. test: utilizado por taddloop.dita (test), taddloops.dita (schedule)
+Una parte del editor de pruebas puede ocultarse ocasionalmente.
+Pulse Ctrl + Alt + &gt; o Ctrl + Alt + &lt; para ampliar o reducir la ventana.
+Descripción breve del informe percentil de página: utilizado por contexts_HTTP_reports.dita y upercentreptprop.dita
+Los informes están disponibles durante todas las fases del proceso de prueba.
+Para cambiar el tamaño de la ventana de planificación, realice una de las acciones siguientes:
+Esto no le da mucho control sobre la ejecución.
+Recopilar datos de desglose de tiempo de respuesta para WebSphere Application Server 8.5.
+El sistema debe tener un número suficiente de puertos TCP/IP.
+Después de la instalación, el agente se conecta automáticamente al entorno de trabajo.
+Se produce una excepción que no se ha podido manejar durante el proceso.
+El archivo de reglas no debe editarse en esta instalación del producto.
+Crea una variable que pueden utilizar los sitios de sustitución.
+Añada condiciones hijo para especificar el sitio de sustitución a buscar.
+Añada condiciones hijo para especificar los orígenes de datos a suprimir.
+Añada condiciones hijo para especificar los sitios de sustitución a suprimir.
+Añada condiciones hijo para especificar las asignaciones de variables a suprimir.
+Los intentos por segundo durante el intervalo de muestreo más reciente
+El número de intentos durante el intervalo de muestreo más reciente
+Se ha alcanzado el número máximo de agentes suministrados dinámicamente.
+Aumente el valor de preferencia y establézcalo en espera más tiempo.
+Un indicador de progreso que muestra el estado de la ejecución.
+El tiempo de respuesta mínimo, máximo y promedio para todas las transacciones.
+Cada barra representa una página que ha visitado durante la grabación.
+El tiempo de respuesta mínimo para cada página de la ejecución.
+El tiempo de respuesta promedio para cada página de la ejecución.
+El tiempo de respuesta máximo para cada página de la ejecución.
+Número de intentos por segundo para acceder a cada página.
+La tabla que aparece después del gráfico proporciona la siguiente información adicional:
+La tabla bajo el gráfico de barras lista la misma información.
+Este comportamiento difiere del comportamiento registrado durante la creación de la prueba.
+Si esto se espera y se entiende, aumente el parámetro de redirección rptMaxde RPT_VMARGS.
+Consulte el registro de errores para obtener más información sobre el error.
+4. Se ha encontrado un error al desplegar en este directorio.
+El tiempo de duración especificado es menor que el que ya ha transcurrido
+El agente especificado no está en contacto con el entorno de trabajo.
+Si el problema persiste, inspeccione el error y realice la acción correctiva.
+A un adaptador estadístico le falta una referencia al resultado de destino.
+La autenticación de usuario es necesaria para acceder a los informes en la nube.
+Error al procesar un mensaje de IBM Agent Controller.
+Compruebe en el registro de prueba las anomalías de los usuarios virtuales.
+Para obtener más información sobre las claves de licencia, consulte la guía de instalación.
+5. Seleccione el valor adecuado en la lista Sistema operativo.
+Consulte el registro de determinación de problemas para obtener más detalles.
+Actualmente no se ha enviado ningún mandato a este controlador.
+No se ha podido crear un archivo temporal para guardar los datos de prueba.
+Asegúrese de que ha instalado este transformador.
+El registro de prueba no está disponible, no se han devuelto resultados de prueba a RQM.
+El adaptador se ha detenido mientras se preparaba para ejecutar un script RQM.
+No hay resultados para el intento de ejecución del script de prueba.
+Se ha producido un error inesperado al procesar una solicitud de importación de RQM.
+No se puede adjuntar el archivo siguiente a los resultados de RQM.
+Asegúrese de que el usuario tiene permiso para crear un directorio en esa ubicación.
+Se ha producido un error al convertir las variables de ejecución del servidor RQM a RPT.
+El proyecto al que se hace referencia no existe en la ubicación compartida.
+Detalles: Se ha producido una referencia fallida en una solicitud anterior.
+Pulse con el botón derecho del ratón en el sitio de sustitución y seleccione Ir a &gt; Referencia.
+Cuando la resolución de problemas de referencias fallidas, empiece con el primer mensaje de error.
+Consulte el registro de errores SSL del servidor web para obtener más detalles.
+Cambie el manejador de bucle para que apunte a un bucle existente.
+La hora después de la cual se libera automáticamente el punto de sincronización.
+La velocidad, por segundo, a la que se completó la transacción.
+Es posible que se encuentre con algunos de estos problemas al realizar pruebas de rendimiento:
+Confirme el número de puerto del servidor en el sistema del entorno de trabajo de prueba.
+Inhabilite los cortafuegos en el sistema del entorno de trabajo y en los sistemas del agente.
+Preste mucha atención a los requisitos de memoria y espacio de disco.
+Todas las modalidades del adaptador utilizan el registro de errores de Eclipse .
+Asegúrese de que el adaptador tiene instaladas las extensiones de protocolo necesarias.
+El número de puntos de verificación correctos en la ejecución
+El número de puntos de verificación que han fallado en la ejecución
+Este informe resume la funcionalidad de los bucles en una prueba.
+Los valores de preferencias controlan el acceso de los informes desde el navegador web externo.
+Puede establecer las preferencias siguientes para los informes web:
+Para asociar un certificado digital con una prueba para reproducción:
+Si selecciona este recuadro de selección, el retardo varía ligeramente.
+Para colocar un grupo de elementos de planificación en una transacción:
+En la planificación, seleccione los elementos de prueba que desea agrupar.
+Incluso puede escribir scripts para procesar los resultados exportados.
+Un desplazamiento absoluto empieza con el primer byte de datos.
+Se mide un desplazamiento relativo desde la posición actual del cursor.
+Esto añade otra ejecución para compararla con la ejecución base.
+El informe de comparación compara los intervalos de tiempo de cada etapa.
+Mostrar este informe automáticamente al finalizar una ejecución.
+netsh -c Interface ip add address name="Gig Ethernet " addr=10.10.0.21 mask=255.255.0.0
+Para establecer una configuración de lanzamiento para una planificación o prueba:
+Cree un archivo PKCS#12-encoded que contenga el certificado y la clave privada.
+Necesita el archivo de claves privadas de CA para firmar certificados.
+Puede definir requisitos de rendimiento para elementos de una prueba.
+Se visualiza una nueva planificación que contiene un grupo de usuarios.
+Esta selección genera automáticamente un informe que compara cada etapa.
+Se utiliza para las notas y comentarios relacionados con el elemento de planificación
+El valor predeterminado es utilizar el tiempo de reflexión registrado.
+Avanzado (en la parte inferior del área Detalles de elemento de planificación)
+El primer color se asigna al primer elemento gráfico.
+Pulse el grupo de usuarios cuyos usuarios virtuales utilizarán alias.
+Desea utilizar algunas, pero no todas, las interfaces de red.
+Este servicio debe estar en ejecución para recopilar datos de supervisión de recursos.
+La fuerza de cifrado depende de la longitud de la frase de contraseña.
+Abra la vista Ejecuciones de pruebas de rendimiento y expanda el árbol.
+Visualizar elementos basados en una comparación con el valor especificado.
+Los sucesos con otros veredictos no se muestran en el informe.
+Se genera un informe funcional para cada diseño de informe seleccionado.
+Para ello, establezca la propiedad RPT_VMARGS, que altera temporalmente RPT_DEFAULT_MEMORY_SIZE.
+Puede detener una ejecución de prueba antes de que se complete.
+En el separador Carga de usuario, modifique las etapas según sea necesario:
+La figura siguiente ilustra una planificación con dos etapas de 16 minutos.
+Para cada tipo de gráfico, sólo se muestran los controles aplicables.
+Seleccione esta opción para editar la etiqueta del eje Y predeterminada (sólo gráficos).
+Seleccione esta opción para especificar la altura del gráfico en píxeles (sólo gráficos).
+Seleccione esta opción para especificar el ancho del gráfico en píxeles (sólo gráficos).
+Supongamos que desea crear gráficos de barras tridimensionales:
+El asistente de creación de pruebas se inicia cuando graba una prueba.
+También verá este nombre en el Navigator.
+Puede generar una nueva prueba a partir de una sesión grabada.
+La prueba se vuelve a generar y se abre en el editor de pruebas.
+Se abre una lista de los puntos de sincronización en la ejecución.
+También puede ver informes de forma remota desde un navegador web.
+Actualice el campo URL de servidor con el nuevo nombre de servidor.
+Vuelva a configurar el adaptador para que apunte al nuevo URL.
+De forma predeterminada, el adaptador utiliza el nombre del sistema.
+Todos los demás activos, como los resultados de la prueba, no son necesarios.
+Copie los proyectos de prueba para compartirlos en el directorio compartido.
+No utilice el entorno de trabajo mientras el adaptador esté en ejecución.
+Las siguientes directrices mejoran el éxito de las pruebas de larga duración:
+Este entero muestra la proporción relativa que ejecuta cada prueba.
+Una prueba se ejecuta en el sistema local, con un usuario.
+Generalmente, debe ejecutar grupos de usuarios en ubicaciones remotas.
+Los mensajes informativos, que incluyen el estado del sistema, no requieren ninguna acción correctiva.
+Recopila sucesos que corresponden a acciones ejecutadas en la planificación:
+Las acciones de prueba principales incluyen acciones de planificación, más las acciones siguientes:
+Para pruebas de Citrix, elementos de conexión, sucesos de ventana y sincronizaciones de imagen
+Las acciones de prueba secundarias incluyen acciones de prueba primarias, además de esta información:
+Por ejemplo, puede añadir la correlación de la dirección IP 123.4.5.6.
+Puede insertar puntos de división al grabar una prueba.
+Configuración de Internet Explorer para grabar desde un sitio web seguro
+Libera a los usuarios uno por uno desde un punto de sincronización.
+Todos los usuarios se distribuyen aleatoriamente entre 1 y 4 segundos.
+Un tiempo de espera de 0 significa que no hay tiempo de espera.
+Pulse con el botón derecho del ratón en el gráfico o tabla que desea cambiar.
+El intervalo de tiempo recién especificado se almacena con el informe.
+Importe los proyectos MyNewDataTransformFeature y MyTransformProject en el nuevo espacio de trabajo.
+Inicie otra copia del entorno de trabajo para depurar las transformaciones.
+En la ventana Exportar informes, seleccione las opciones siguientes:
+Puede cambiar las preferencias de prueba para exportar los resultados automáticamente.
+Un agente puede estar en uno de los estados siguientes:
+Para añadir usuarios, escriba el número de usuarios que desea añadir.
+Especifique la ubicación de los agentes que están en la nube:
+El archivo CSV contiene el último valor para cada contador.
+El contador seleccionado se lista en la tabla Detalles de contador.
+Este mecanismo reduce el tiempo de inicio para las ejecuciones de prueba posteriores.
+Espere un tiempo promedio de provisión entre quince y treinta minutos.
+También puede utilizar un código promocional para el uso de prueba.
+Puede añadir o cambiar un color en la paleta.
+Registre una aplicación basada en GWT versión 2.4.
+La reutilización de conexiones existentes puede aprovechar las conexiones de mantener activas.
+No ponga el archivo de vía de acceso de clases bajo el control de origen.
+Estas dos pruebas utilizan distintos métodos de acceso para la agrupación de datos.
+En la paleta de colores que se abre, elija un color diferente.
+Agent Controller no se está ejecutando en el sistema local.
+Al abrir una planificación, puede establecer sus propiedades.
+Un valor de 100 no causa ningún cambio en los tiempos de reflexión.
+Para restaurar los tiempos de reflexión originales, desmarque este recuadro de selección.
+Para pruebas SAP , esta opción proporciona información sobre las pantallas SAP .
+Utilice esta página para inicializar variables a nivel de planificación.
+El host remoto ha forzado el cierre de una conexión existente.
+Para determinar por qué los usuarios virtuales se han detenido antes de que se completara la etapa:
+Simplifique la carga de trabajo ejecutando un usuario en una etapa.
+El estándar más común para los certificados digitales es el estándar X.509 .
+El administrador firma digitalmente cada certificado utilizando el certificado de CA del sistema.
+El asunto describe al propietario del certificado, pero no es necesariamente exclusivo.
+Grabe una prueba que requiera que utilice un certificado digital.
+Cree un almacén de certificados ejecutando el programa de línea de mandatos KeyTool proporcionado.
+Examine el sitio web como lo haría normalmente para grabar una prueba.
+Se da soporte a la modalidad de itinerancia con el applet TruePass versión 7.0 y posterior.
+Un árbol de directorios LDAP suele reflejar los límites políticos, geográficos u organizativos.
+Sin embargo, esto no significa que los tiempos de respuesta sean similares.
+Sin embargo, esto no significa que los tiempos transcurridos sean similares.
+Póngase en contacto con el administrador del sistema para obtener más información sobre el dominio del servidor.
+Lista las ubicaciones desde las que se recopilará el desglose del tiempo de respuesta.
+Seleccione uno o varios requisitos y pulse para eliminar la definición.
+Si decide sustituir, las sustituciones en conflicto se eliminan automáticamente.
+Seleccione esta opción para habilitar el uso de requisitos de rendimiento para esta planificación.
+Pulse para establecer opciones específicas de protocolo para todas las pruebas de la planificación.
+Le permite inspeccionar los valores antes de establecerlos realmente.
+Un ejemplo de una aplicación de este tipo es Rational DOORS Next Generation.
+Generar una página nueva si el retardo entre solicitudes es mayor que
+Los puntos de verificación también se pueden habilitar o inhabilitar dentro de pruebas específicas.
+Desmarque el recuadro de selección si tiene previsto correlacionar los referenciadores manualmente.
+También puede seleccionar una combinación de colores marrón, gris o rojo-verde-azul.
+Seleccione esta opción para habilitar el uso de requisitos de rendimiento para esta prueba.
+Pulse este campo para establecer un valor de tiempo numérico en milisegundos.
+Seleccione esta opción para evitar que los requisitos de rendimiento no definidos aparezcan en la tabla.
+Utilice esta opción para ver las sustituciones en el informe Elementos de página.
+Seleccione esta opción para impedir que la tabla incluya candidatos de requisitos de rendimiento no definidos.
+Seleccione uno o más requisitos y pulse para eliminar la definición.
+Indica el juego de caracteres que se utilizará para la solicitud de página.
+Utilice este método para ejecutar una prueba a una velocidad establecida.
+Los bucles en las pruebas reutilizan la conexión de servidor durante cada iteración de bucle.
+Sin embargo, es probable que distintos usuarios utilicen la misma fila de agrupación de datos.
+Cada fila tiene la misma posibilidad de ser seleccionada cada vez.
+Para cambiar el tamaño de la ventana Editor de pruebas, realice una de las acciones siguientes:
+El nuevo tamaño permanece la próxima vez que abra la ventana.
+Haga doble clic en la línea azul para volver a una proporción 50/50.
+Los valores predeterminados, 85, 90 y 95, son suficientes para la mayoría de los fines.
+Listar los distintos entornos que se van a probar y generar configuraciones de prueba
+Sin embargo, los horarios son mucho más que simples vehículos para ejecutar pruebas.
+Pase el cursor por encima del lado izquierdo del área Detalles de elemento de planificación.
+Los grupos de usuarios le permiten agrupar pruebas en un orden lógico.
+Con los grupos de usuarios, puede controlar la ejecución de pruebas de varias formas:
+Exportación del registro de sucesos a un archivo CSV, XML o de texto.
+Inicie sólo un adaptador por instalación de producto en un sistema determinado.
+El registro de prueba establece un veredicto para cada ejecución de la forma siguiente:
+Crea una columna de agrupación de datos que pueden utilizar los sitios de sustitución.
+Crea una referencia en datos que coinciden con una expresión regular especificada.
+Añada condiciones hijo para especificar los elementos de código personalizado a suprimir.
+Abra la página de preferencias hijo en Prueba &gt; Supervisión de recursos de rendimiento.
+Las preferencias en el entorno de trabajo de nube se establecerán en esta nueva ubicación
+Número promedio de elementos de página intentados en toda la ejecución
+El porcentaje de éxitos (coincide con la información del diagrama de barras)
+El servicio de suministro está informando de que las credenciales de usuario no son válidas.
+La respuesta del servidor web estaba en un formato inesperado.
+Terminando anormalmente la ejecución de la nube.
+Desviación estándar del tiempo de respuesta promedio para todas las páginas.
+La tabla bajo el gráfico de barras proporciona la siguiente información adicional:
+El gráfico se escala automáticamente para acomodar el valor de contador de recursos más alto.
+El tamaño de la página contribuye al cálculo del tiempo de respuesta.
+La sección Condiciones de error muestra el número de condiciones de error que se cumplen.
+La sección Comportamiento de error muestra cómo se ha manejado cada condición de error.
+Examine los sistemas servidor y agente para encontrar y arreglar cuellos de botella.
+El cuerpo de respuesta puede estar incompleto debido a que falta un "trozo".
+Si el fragmento que falta era el último (longitud cero), los datos se completan.
+Se nos ha redirigido al mismo URI que ha emitido esta solicitud.
+La infraestructura de ejecución de prueba no ha podido entregar un ejecutor.
+Para obtener más información, consulte la sección Resolución de problemas de la ayuda en línea.
+Inhabilite los cortafuegos en el sistema local y en el sistema agente.
+No se ha devuelto un ejecutor y tampoco un mensaje de error.
+3. IBM Agent Controller debe tener autorización sobre este directorio.
+Este enlace también puede interrumpirse si se suprime el archivo de agrupación de datos.
+La planificación debe estar en estado En ejecución para cambiar la duración de la etapa
+Asegúrese de que el nombre de agente se ha escrito correctamente en la ubicación.
+Busque más detalles sobre el error en el mensaje publicado.
+La vía de acceso de archivo especificada para el programa de utilidad Zip no es válida.
+Actualice el sistema operativo para que coincida e inténtelo de nuevo.
+El usuario root debe iniciar Agent Controller.
+Un proceso de supervisión indica que el cargador de registros de prueba se ha detenido prematuramente.
+La combinación de transformador y característica que ha seleccionado no es válida.
+La combinación de característica y transformador que ha seleccionado no es válida.
+Verifique que los elementos que contienen los datos decodificados de Silverlight son correctos
+El codificador GraniteDS no ha funcionado debido a la razón indicada.
+Esto puede hacer que el informe HTML adjunto no se represente correctamente.
+El acceso a recursos remotos de RQM no está soportado para los activos SOA pre-8.0 .
+Sólo puede ejecutar scripts que estén en el espacio de trabajo de adaptadores.
+Solicitud omitida: podría ser que la contraseña proporcionada no era correcta
+Error al generar la prueba desde el cliente de servicio genérico: no se puede mostrar el asistente
+Para obtener más información, busque en la ayuda los temas de correlación de datos.
+La solicitud contiene un valor que puede ser necesario correlacionar.
+Se ha intentado añadir un objeto a la planificación que no es un UserGroup
+El nombre de bucle especificado en el manejador de bucle no existe.
+La segunda tabla lista todos los requisitos de rendimiento estándar que ha definido.
+La página Resumen general contiene dos tablas y dos gráficos circulares.
+La página Detalles proporciona un análisis detallado de los requisitos de rendimiento estándar.
+Todos los usuarios han llegado, se han liberado manualmente o han excedido el tiempo de espera.
+Tiempo promedio transcurrido para todas las transacciones en toda la ejecución.
+La barra gráfica sólo se visualiza si no hay errores.
+El informe también muestra las 10 transacciones más lentas en una ejecución.
+Realice los pasos siguientes para confirmar que la instalación se ha configurado correctamente:
+Verifique la conectividad de red entre el sistema del entorno de trabajo y los sistemas del agente.
+Reinicie los sistemas del agente y verifique que el proceso Majordomo se está ejecutando.
+Establezca el valor igual a true; el valor predeterminado es false.
+El adaptador se visualiza como rojo en el recuadro de diálogo de selección.
+Para que las pruebas verifiquen estos elementos, realice los pasos siguientes:
+Esta pestaña muestra el estado de cada iteración de un bucle.
+Pulse esta opción para permitir el acceso a informes sin credenciales de inicio de sesión.
+Pulse esta opción para proporcionar una capa de autenticación para acceder a los informes.
+Puede establecer un bucle dentro de una planificación o una prueba.
+En el Navigator, vaya a la planificación y efectúe una doble pulsación en ella.
+En el Navigator, vaya a la planificación y efectúe una doble pulsación en ella.
+Escriba el porcentaje de la carga de trabajo que representa el grupo de usuarios.
+Si no utiliza este formulario, el intento de conexión falla.
+Pulse para establecer los grupos de usuarios seleccionados en el mismo tamaño.
+También puede insertar puntos de división en una prueba durante el registro.
+En el Navigator, vaya a la prueba y efectúe una doble pulsación en ella.
+Para cambiar el nivel de registro, seleccione cualquiera de las opciones siguientes:
+El ejemplo siguiente crea un alias en la interfaz de red en1 .
+Desea que la configuración de lanzamiento aparezca en el menú de la barra de herramientas.
+Desea que la configuración de lanzamiento esté disponible para otros usuarios.
+Puede exportar proyectos, planificaciones, pruebas y resultados de pruebas con dependencias.
+Este archivo sólo contiene la clave pública, no la clave privada.
+Si un valor contiene espacios, escriba el valor entre comillas.
+El nombre del archivo de certificado que se va a añadir, eliminar o generar.
+Si no se especifica ningún asunto, se proporcionará un asunto predeterminado.
+Esto mide el tiempo de respuesta promedio para todas las páginas.
+Para definir un requisito de rendimiento para los elementos de una prueba:
+En el Navigator, vaya a la prueba y efectúe una doble pulsación en ella.
+Para ir a la definición de requisito original, efectúe una doble pulsación en la fila de requisito.
+Los nombres de usuario y contraseñas de Kerberos se pueden asociar a una agrupación de datos.
+Habilitar la supervisión de recursos para capturar datos de recursos del sistema durante las pruebas de rendimiento
+Otras planificaciones de prueba o aplicaciones pueden seguir utilizando el origen de datos.
+Estos datos pueden incluir información potencialmente confidencial, como contraseñas almacenadas.
+Debe ajustar los valores de seguridad para recopilar datos de supervisión de recursos.
+Los valores de seguridad predeterminados no permiten la recopilación de desglose de tiempo de respuesta.
+El archivo de sesión de grabación es irrecuperable si se pierde la frase de contraseña.
+Para corregir esta situación, aumente la asignación de memoria para ese sistema.
+En algunos casos la mejor solución es añadir otro agente.
+La ejecución de la planificación se detiene después de que se haya completado la iteración del bucle actual.
+Tenga en cuenta que un límite de tiempo largo puede retrasar la siguiente etapa.
+Seleccione esta opción para editar la etiqueta de eje X predeterminada (sólo gráficos de líneas).
+Para crear un informe de línea base, no añada los contadores ahora.
+Debe utilizar un certificado digital PKCS#12 al grabar pruebas de rendimiento.
+Puede liberar usuarios virtuales de puntos de sincronización durante una ejecución.
+Debe haber insertado puntos de sincronización en una prueba o planificación.
+Para cambiar el informe predeterminado, abra la página Preferencias de informe predeterminado.
+Si se cambia el nombre del servidor de Rational Quality Manager , siga estos pasos:
+Supongamos que un selector aleatorio contiene dos pruebas: Examinar y Puja.
+Cuando se pierde un agente, de forma predeterminada, la planificación se detiene.
+En el área Contenido de la planificación, haga clic en el nombre de la planificación.
+Seleccione esta opción para limitar el proceso que necesita el entorno de trabajo.
+Para pruebas HTTP, acciones relacionadas con páginas HTTP (intentos, hits y puntos de verificación).
+Para pruebas HTTP, SAPy Citrix, proporciona estadísticas para todas las acciones.
+Un grupo contiene cuatro usuarios y un grupo contiene 1000 usuarios.
+Los registros de determinación de problemas contienen información interna sobre el motor de reproducción.
+Para establecer el nivel de registro de determinación de problemas y la frecuencia de muestreo:
+Solo puede recopilar errores, errores y avisos, o todos los sucesos.
+La hora en que se enviaron el primer byte y el último byte.
+La hora en que se han recibido el primer byte y el último byte.
+Para pruebas de Citrix, puntos de sincronización, retardos, elementos de texto y elementos de cierre de sesión.
+Para pruebas de Citrix, información de tiempo de reflexión, acciones de ratón y acciones de teclado.
+Al final del archivo hosts, añada las correlaciones de IP.
+a dos hosts lógicos, como se muestra en las dos líneas inferiores:
+Las pruebas se generan utilizando los nombres de prueba que ha especificado.
+Por ejemplo, puede especificar horas de inicio y detención personalizadas para:
+Ajuste el intervalo de tiempo de una etapa para tener en cuenta el tiempo de liquidación incorrecto.
+En Comportamiento de foco de informe de ejecución por etapas, seleccione una de estas opciones:
+Implemente los métodos transformData y unTransformData para crear las transformaciones de datos.
+El informe exportado se puede visualizar e imprimir desde cualquier navegador.
+El archivo se visualiza después de que se haya completado la ejecución de la línea de mandatos.
+El archivo CSV contendrá el último valor para cada contador.
+Utilice esta opción para compartir formatos de informe personalizados con otros usuarios.
+El agente no ha contactado con el entorno de trabajo durante los últimos 10 segundos.
+En el informe, se visualiza una etapa como un rango de tiempo.
+Si se establece la conexión, especifique las propiedades siguientes para el entorno de trabajo:
+La elección de un tipo de host también puede determinar el tiempo de respuesta.
+Una computadora nativa significa una pieza totalmente dedicada de hardware.
+Esta opción aplica un retardo de tiempo fijo en la ejecución de la planificación.
+Especifique el número de usuarios que deben ejecutarse en un agente de control.
+De forma predeterminada, las ubicaciones de nube se guardan en el proyecto actual.
+De forma predeterminada, el número de puerto no seguro para los informes web es 8080.
+De forma predeterminada, el número de puerto seguro para los informes web es 8443.
+Debe utilizar las mismas credenciales de inicio de sesión para acceder a los informes de forma remota.
+Utilice el sitio web para generar el número de pedido o el código promocional.
+Este valor indica el número de entradas permitidas para un usuario.
+Los colores de la paleta se aplican automáticamente a cada contador.
+Normalmente, el informe de ejecución parcial es útil para depurar problemas específicos.
+Seleccione un elemento de prueba o solicitud que contenga los datos codificados.
+Si la planificación de rendimiento contiene bucles, mueva los bucles a las pruebas.
+Acepte todos los valores predeterminados excepto la modalidad de acceso de red.
+Para iniciar el controlador de agentes, realice uno de los pasos siguientes:
+El escalonamiento de usuarios evita sobrecargar el sistema, lo que puede provocar tiempos de espera excedidos de conexión.
+Límite de tiempo para que un usuario responda a una solicitud de detención
+Utilice esta opción para ejecutar una planificación rápidamente con fines de prueba.
+Informa del número de usuarios activos y completados en la ejecución.
+Exportar las variables definidas en el nivel de planificación a un archivo.
+El número que seleccione se muestreará de cada grupo de usuarios.
+Especifique el número de usuarios que se van a muestrear de cada grupo de usuarios.
+El entorno de trabajo ha perdido la comunicación con uno o varios sistemas agente.
+Examine el registro de determinación de problemas para ver si hay mensajes de error o de excepción.
+El sistema local no se puede comunicar con uno o varios sistemas agente.
+Al abrir un grupo de usuarios, puede establecer estas propiedades.
+Indica que el grupo de usuarios se debe ejecutar en el sistema.
+Utilice esta página para inicializar variables a nivel de grupo de usuarios.
+Compruebe la variable para determinar dónde debería haberse producido la inicialización.
+Aumente el nivel de registro de prueba y disminuya el número de usuarios.
+La clave privada siempre se mantiene privada (es decir, nunca se transmite).
+Existen cuatro tipos de certificados que se pueden utilizar en las pruebas:
+Sin embargo, normalmente, se utiliza un certificado firmado para representar a un usuario determinado.
+Repita este proceso para sustituir las frases de contraseña de la columna de agrupación de datos que contiene las frases de contraseña.
+Entrust proporciona tecnologías de identidad digital y cifrado a los gobiernos y a la industria privada.
+Ahora puede ejecutar pruebas en servidores que requieren autenticación Entrust TruePass .
+Las protecciones típicas que proporciona el encapsulado GSS-API incluyen confidencialidad (secreto) e integridad (autenticidad).
+Las pruebas y planificaciones se migran automáticamente al modificarlas y guardarlas.
+El sistema B puede tener tiempos de respuesta de 1, 20, 25 y 2.
+El sistema B puede tener tiempos transcurridos de 1, 20, 25 y 2.
+Si acelera la reproducción de forma drástica, es posible que las solicitudes se produzcan desordenadas.
+Pulse para añadir una referencia a una agrupación de datos para que la utilice la prueba.
+La tabla muestra los requisitos de rendimiento definidos en la prueba.
+Cuando borra esta preferencia, es más fácil leer una prueba.
+Los puntos de verificación de contenido verifican si las series especificadas están presentes en los datos de respuesta.
+No generar una página nueva si el tiempo de reflexión es menor que
+Si las pruebas contienen menos páginas de las esperadas, intente un intervalo más corto.
+Si las pruebas contienen más páginas de las esperadas, intente un intervalo más largo.
+Especifique el límite de datos de respuesta, en KB, que guarda el generador.
+Haga clic para especificar los tipos de puntos de verificación que desea incluir automáticamente.
+Pulse el botón de color para establecer el color de los títulos de informe.
+Añadir rango de tiempo activo a un informe de comparación para todos los rangos de tiempo
+Seleccione esta opción para visualizar un aviso al modificar un informe.
+Indica si el punto de verificación de título de página está habilitado para esta página.
+Especifica datos de contenido adicionales que pueden ser necesarios para aclarar la solicitud.
+Seleccione esta opción para impedir que los candidatos de requisitos de rendimiento no definidos aparezcan en la tabla.
+Si inhabilita el ajuste, no se puede utilizar ninguna fila más de una vez.
+La tabla siguiente muestra la fila a la que se accede en cada iteración:
+El formato CSV simple sólo contiene el último valor de datos de la ejecución.
+Los comentarios pueden ser útiles si comparte archivos de conjunto de reglas con otros verificadores.
+Compruebe la cobertura de la característica con los planes de prueba, las entradas de prueba, las configuraciones, etc.
+La exportación de contadores y resumen ejecutivo basados en web ahora se guarda en HTML.
+El primer enfoque genera automáticamente una prueba de auditoría en la planificación de nube.
+Los agentes de control basados en cloud no pueden detectar cuellos de botella de centro de datos o ancho de banda de host físico.
+Normalmente, este archivo se utiliza cuando se lo solicita el servicio de soporte de software de IBM .
+Las planificaciones se ejecutan normalmente en un servidor remoto que tiene una configuración de gama alta.
+Además, se recomienda utilizar la misma versión de release para ambos.
+Puede personalizar cómo se correlacionan los datos utilizando reglas de correlación de datos.
+Crea un sitio de sustitución en datos que coinciden con una expresión regular especificada.
+Cambia el nombre de un origen de datos que coincide con una expresión regular.
+Cambia el nombre de un sitio de sustitución que coincide con una expresión regular.
+Elimina los enlaces entre sitios de sustitución y referencias y otros orígenes de datos.
+Este informe resume los datos de elemento de página más importantes para la ejecución.
+Los gráficos de este informe muestran intervalos de tiempo, intentos, aciertos y éxitos.
+El tiempo de respuesta promedio para todos los elementos de página en toda la ejecución
+El tiempo de respuesta promedio para ese elemento de página durante toda la ejecución
+Las coincidencias de memoria caché confirmadas por el servidor se producen cuando el servidor devuelve un código de respuesta 304.
+Se ha devuelto un error inesperado de bajo nivel desde el sistema del gestor de nube.
+La tabla debajo del gráfico proporciona información más detallada para cada página:
+El gráfico de barras muestra las 10 páginas con la tasa de éxito más baja.
+Verifique que los valores de contexto de autenticación NTLM para esta solicitud son correctos.
+De lo contrario, intente resolver el nombre de host utilizando el mandato nslookup &lt; hostname &gt;.
+Esto puede ocurrir si se proporciona un nombre de usuario o una contraseña incorrectos.
+Se ha producido un error durante la codificación de una propiedad de suceso de historial de ejecución anotada.
+Puede utilizar el carácter de asterisco (*) para especificar un comodín.
+Una o más pruebas hacen referencia a una versión diferente de la agrupación de datos.
+Siempre que se utiliza una agrupación de datos, se crea una referencia en la prueba.
+Asegúrese de que todas las ubicaciones incluyan esta opción o ninguna.
+Es posible que las opciones seleccionadas ya no sean válidas con el gestor de nube.
+La ejecución de nube se está deteniendo.
+Se ha producido un error al actualizar el espacio de trabajo después de descargar archivos remotos.
+Compruebe la conectividad de red entre esa máquina y el entorno de trabajo, incluidos los cortafuegos.
+El decodificador de Microsoft Silverlight no funcionó debido a la razón indicada.
+Verifique que los elementos de prueba que contienen los datos codificados de Silverlight son correctos
+El codificador de Microsoft Silverlight no funcionó debido a la razón indicada.
+El adaptador no puede iniciar la prueba porque RPT ya está ejecutando una prueba.
+Especifique las credenciales adecuadas en la página de preferencias de Eclipse Quality Adapter (Windows-&gt; Preferences).
+Si el archivo se ha editado manualmente, asegúrese de que los parámetros tengan el formato correcto.
+Se ha producido un error al actualizar el estado de ejecución de nuevo al servidor RQM.
+Esto puede hacer que la página de progreso de prueba de RQM contenga datos inexactos.
+Establezca el nombre en la página de preferencias de Eclipse Quality Adapter (Windows-&gt; Preferences).
+Probablemente la ejecución ya estaba concluyendo cuando entró la solicitud.
+Actualice todo el proyecto SOA a 8.0 o superior antes de compartir.
+La vía de acceso de script especificada por RQM no parece ser válida.
+Esto sugiere que RQM no soporta el tipo de script RTW introducido en 4.0.3.
+Cambie el archivo para que siga el formato especificado proporcionado por el soporte.
+La página Detalles suplementarios muestra un análisis detallado de los requisitos de rendimiento suplementarios.
+Número de usuarios virtuales que han llegado al punto de sincronización.
+El tiempo entre la llegada del primer usuario y la liberación del primer usuario.
+El tiempo de servidor neto promedio para todas las transacciones en toda la ejecución.
+La tabla bajo el gráfico lista la siguiente información para cada transacción:
+La tabla debajo del gráfico proporciona información más detallada para cada transacción:
+Asegúrese de que el script de prueba apunte a una ubicación compartida que todavía exista.
+Este informe muestra el estado de los puntos de verificación en las pruebas.
+Marque este recuadro de selección para controlar la ejecución de la planificación desde un navegador web.
+Una página en el área Detalles de una prueba o una planificación
+Puede añadir una transacción a una prueba o a una planificación.
+Esto es útil en el informe Transacciones, que lista las transacciones por nombre.
+Normalmente, se asigna un porcentaje a los grupos de usuarios, en lugar de un número absoluto.
+En la tercera página de este asistente, puede especificar ubicaciones de archivo.
+Pulse para configurar todos los grupos de usuarios para que se ejecuten en el sistema del entorno de trabajo.
+Seleccione el formato adecuado, como bytes o ASCII, en la lista.
+Seleccione en la lista la codificación que se utilizará para visualizar datos binarios.
+Puede cambiar el nivel de registro para determinar los problemas durante una ejecución.
+En el Navigator, abra la ubicación que representa el sistema agente.
+Especifique la dirección IP y la máscara de subred del nuevo alias.
+Puede exportar e importar activos de prueba para colaborar con otros verificadores.
+El proyecto de destino debe tener el mismo nombre que el proyecto de origen.
+Las instrucciones siguientes describen un método más antiguo para copiar un proyecto de prueba.
+De lo contrario, es posible que no pueda localizar los activos de prueba importados.
+Asegúrese de exportar todas las agrupaciones de datos que requieren las pruebas exportadas.
+En este caso, las bibliotecas que faltan deben eliminarse de la vía de acceso de construcción.
+El proyecto se ha importado a un espacio de trabajo en una unidad de disco diferente.
+Puede cambiar el nombre de un requisito de rendimiento para mejorar la legibilidad.
+En general, los requisitos suplementarios se utilizan para los requisitos que se rastrean internamente.
+Estos requisitos especifican umbrales aceptables de rendimiento y validan los acuerdos de nivel de servicio.
+Pulse el requisito de rendimiento para definir y añadir una definición, como se indica a continuación:
+Puede definir requisitos de rendimiento en una prueba o en una planificación.
+Puede recopilar datos de desglose de tiempo de respuesta de pruebas HTTP o SOA.
+En el Navigator, expanda el proyecto hasta que localice la ejecución.
+Cuando edita una prueba, los elementos modificados aparecen en cursiva.
+El tipo de cursiva cambia al tipo normal después de guardar la prueba.
+Para poder habilitar a los usuarios virtuales para utilizar alias de IP, debe:
+Si se trata de una planificación nueva, la tabla Origen de datos está vacía.
+Estos errores se pueden producir si los orígenes de datos no son accesibles o no son válidos.
+Si exporta una planificación, contiene la información de configuración de origen de datos.
+En el Navigator, efectúe una doble pulsación en los resultados que desea filtrar.
+Para añadir un bucle que controle la velocidad de iteración para ejecutar pruebas:
+Seleccione esta opción para ver una "ventana" de datos mostrados en el eje X.
+Seleccione esta opción para intercambiar las columnas y filas de la tabla (sólo tablas).
+Seleccione esta opción para cambiar el valor de multiplicador para el eje Y (sólo gráficos).
+Puede filtrar un informe por recuento, por valor o por etiqueta.
+De forma predeterminada, el entorno de trabajo se configura con cifrados de potencia restringida o limitada.
+Debe configurar el navegador antes de intentar grabar aplicaciones Kerberos .
+Para volver a generar una prueba completa a partir de una grabación que contiene puntos de división:
+Cree una planificación para modelar cargas de trabajo añadiendo grupos de usuarios y etapas.
+Para iniciar el adaptador desde la línea de mandatos, ejecute el mandato del adaptador:
+Detenga el adaptador antes de abrir el entorno de trabajo en el espacio de trabajo configurado.
+En el Navigator, expanda el proyecto hasta que localice la planificación.
+Para las pruebas de Citrix, se crea un nuevo proceso para cada verificador virtual.
+Por lo tanto, la ejecución de una planificación sin el agente perdido puede dar resultados imprevisibles.
+Antes de ejecutar un grupo de usuarios en una ubicación remota, verifique que:
+Un número razonable de usuarios virtuales se ejecutarán en la ubicación remota.
+Los mensajes de aviso, que pueden indicar problemas potenciales, no requieren ninguna acción correctiva.
+Por ejemplo, la hora estándar del este (EST) está 5 horas por detrás de la hora UTC.
+La hora de inicio y detención de cada selector, si se han establecido selectores.
+Sucesos de inicio y detención de transacción, si las transacciones están presentes en la prueba.
+Las anomalías o errores se resumen en el nivel de veredicto de prueba.
+Valores esperados y reales de los puntos de verificación de nivel de página que ha definido.
+Repita este paso entre las acciones de usuario registradas según sea necesario para dividir las pruebas.
+Puede insertar un punto de sincronización en una planificación o una prueba.
+Un usuario que alcanza un punto de sincronización después de un tiempo de espera no está retenido.
+En ese caso, se le solicitará el tipo de autenticación y las credenciales.
+Filtre los datos de las fases de incremento o disminución de las ejecuciones de prueba.
+Transformación automática de datos binarios en pruebas de rendimiento en un formato más legible
+Incluye el nombre de resultado, el nombre de nodo y el intervalo de tiempo para esos datos.
+Debe ejecutar una planificación para cambiar el número de usuarios virtuales.
+Después de la ejecución, puede comparar informes para verificar la precisión del tiempo de respuesta.
+Puede exportar información de un informe completo como resumen ejecutivo.
+Para abrir un informe, en la vista Navigator , efectúe una doble pulsación en una ejecución.
+En la vista Navigator , efectúe una doble pulsación en una ejecución con contadores para exportar.
+El informe exportado se puede visualizar e imprimir desde cualquier navegador web.
+Utilice el filtro de etiqueta para todos los contadores de un gráfico.
+Puede incluir o excluir contadores cuya etiqueta contenga un valor de filtro.
+Puede añadir varios contadores para un gráfico en función de sus requisitos.
+El directorio de despliegue almacena los archivos necesarios para la ejecución de la prueba.
+Después de cambiar un informe, los cambios se guardan en el espacio de trabajo.
+El cargo por una ejecución depende del número de horas de probador virtual.
+Si la validación es satisfactoria, se muestra el coste de la ejecución.
+Este proceso puede tardar algún tiempo, en función del número de agentes.
+Pulse el grupo de usuarios para el que desea establecer el límite de memoria caché.
+Puede utilizar una condición para resaltar un área de problema de rendimiento específica.
+Una hora de inicio válida es cualquier valor entre 0.0 y la hora de finalización.
+Debe tener acceso a las clases que contienen los objetos intercambiados.
+Esto puede hacer que el sistema agente agote todos los puertos TCP/IP disponibles.
+Si una prueba contiene bucles, los usuarios virtuales intentan reutilizar las conexiones existentes.
+Consulte la guía de instalación para obtener más información sobre la gestión de claves de licencia de protocolo.
+Coloque los distintos activos de proyecto en carpetas separadas bajo el proyecto principal.
+Esto permite que otro usuario pueda ver e importar el proyecto.
+Durante una sesión, mantenga las planificaciones y pruebas extraídas para una edición fácil.
+Cuando salga de Eclipse, se le solicitará que los vuelva a incorporar.
+Las preferencias de búsqueda y sustitución controlan el comportamiento de la búsqueda y sustitución.
+Otra aplicación está utilizando el puerto de escucha para la grabación HTTP.
+Agent Controller coordina la reproducción de la planificación entre el entorno de trabajo y los sistemas del agente.
+Marque este recuadro de selección para utilizar los valores de variable de un archivo.
+Estos datos muestran el desglose del tiempo de respuesta para cada elemento de página.
+Exportar las variables definidas a nivel de grupo de usuarios a un archivo.
+Estos certificados, junto con las claves públicas y privadas, se distribuyen a los usuarios.
+Cuando el navegador sea cuestionado por el servidor, producirá su certificado.
+Para utilizar un almacén de certificados con una agrupación de datos, abra la prueba para editarla.
+Esto hace que sea conveniente para su uso en quioscos y otros entornos de usuario público.
+La grabación de pruebas con aplicaciones Entrust TruePass funciona del mismo modo que lo hace la grabación HTTP normal.
+Debe utilizar un nombre de host o una dirección IP para registrar el tráfico.
+Si no se puede resolver una dirección, la prueba muestra un tiempo de conexión más lento.
+El servidor de autenticación en un entorno Kerberos se denomina Centro de distribución de claves.
+Antes de instalar una nueva versión, desinstale la versión anterior del producto.
+desviación estándar para páginas HTTP: utilizado por tpagel.dita, rperform.dita (3 veces, rpercnt, rtrans.dita)
+El sistema A puede tener tiempos de respuesta de 11, 12, 13 y 12 ms.
+El sistema A puede tener tiempos transcurridos de 11, 12, 13 y 12 ms.
+Puede especificar un rango de no retardos al doble de la longitud registrada.
+Para solucionar este problema, reduzca la velocidad de reproducción hasta que la prueba se vuelva a ejecutar correctamente.
+Puede habilitar la recopilación de desglose de tiempo de respuesta a nivel de página o padre.
+Incluir sitios que están contenidos en, o se solapan con, un sitio de sustitución existente.
+Por ejemplo, puede elegir transformar automáticamente los datos binarios al formato ASCII.
+Especifique el retardo más largo, en milisegundos, que permite el generador entre solicitudes de página.
+De forma predeterminada, el campo Referer de una cabecera de solicitud HTTP se correlaciona automáticamente.
+La desventaja de este valor es que puede dar como resultado correlaciones incorrectas.
+El ejemplo más común de pérdida de cambios se produce en el informe Percentil de página.
+Indica si un valor de prueba contiene caracteres especiales como espacios o comas.
+Indica el retardo adicional, en milisegundos, que se debe esperar antes de emitir esta solicitud.
+Esta acción modela el comportamiento de un usuario que cierra y vuelve a abrir un navegador.
+Esta opción impide que los usuarios virtuales seleccionen valores duplicados (por ejemplo, ID de cuenta).
+Por ejemplo, supongamos que un selector contiene seis bloques establecidos en el peso siguiente:
+Utilice esta página para seleccionar el informe predeterminado que se abre durante una ejecución.
+Utilice esta página para exportar el registro de prueba a un archivo de texto sin formato.
+El plan de prueba se puede configurar para satisfacer las necesidades de su organización.
+Gestionar requisitos de proyecto y casos de prueba y establecer las interdependencias entre los dos
+Esto también se puede utilizar para medir el progreso de la prueba y para analizar tendencias.
+Exportar la salida de la consola de sucesos de ejecución a un archivo CSV, XML o de texto.
+Si está realizando pruebas de estrés en un servidor, la prueba normalmente contiene un bucle.
+Aumente el intervalo de muestreo de estadísticas a 30 o 60 segundos para pruebas de larga ejecución.
+Si la generación de pruebas está tardando un tiempo relativamente largo, intente escenarios de grabación más cortos.
+A continuación, puede editar las pruebas añadiendo datos dinámicos y puntos de verificación.
+Los agentes se instalan en sistemas para generar la carga en la aplicación.
+El archivo de reglas hace referencia a una regla que es desconocida en esta instalación del producto.
+Referencia: Personalizar cómo se correlacionan los datos en las pruebas de rendimiento utilizando reglas de correlación
+Se ha producido un error no especificado del gestor de nube al validar las preferencias de cuenta.
+Este gráfico proporciona una idea general de los tiempos de respuesta para cada página.
+El porcentaje de puntos de verificación de título de página correctos, si se ha establecido alguno.
+Es la duración de ejecución, que se muestra en horas, minutos y segundos.
+Con esta información, puede evaluar la respuesta del sistema durante y después de la prueba.
+El diagrama de barras muestra el tiempo de respuesta promedio de las 10 páginas más lentas.
+Si nslookup tampoco puede resolver el nombre, póngase en contacto con el administrador de red.
+Para que la autenticación se reproduzca correctamente, debe grabarse un desafío durante la creación de la prueba.
+El servidor no ha devuelto los datos de respuesta antes de que transcurriera el intervalo de tiempo de espera.
+Para abrir el registro de errores, pulse Ventana &gt; Mostrar vista &gt; Registro de errores.
+2. La vía de acceso del directorio de despliegue debe ser válida para el sistema operativo de destino.
+Falta un archivo de plantilla de ubicación al que hace referencia un archivo de ubicación o es inaccesible.
+El nombre de agente especificado no se está resolviendo en el Sistema de nombres de dominio (DNS).
+Actualice el agente RPT en la máquina especificada para que coincida con la versión del entorno de trabajo.
+Ajuste el número de usuarios a 1 en la planificación y vuelva a ejecutar.
+Como resultado, las prestaciones que habilita esta licencia no están disponibles.
+Mientras se esperaba un acuse de recibo del controlador, se ha recibido una respuesta no reconocida.
+Aumente el intervalo de estadísticas a 60 segundos e intente ejecutar de nuevo la planificación.
+Pulse Ventana &gt; Mostrar vista &gt; Registro de errores para abrir el registro de errores.
+Compruebe que los sucesos esperados existen al final del registro de prueba.
+Para decodificar los datos, Rational Peformance Tester requiere acceso a la definición de clase.
+Verifique que los elementos que contienen los datos codificados o descodificados de GraniteDS son correctos.
+Visualización no disponible, no se adjuntarán informes HTML de RPT a los resultados de ejecución de RQM.
+Se han detectado varias ejecuciones de prueba cuando se ha recibido la solicitud de detención de RQM.
+RQM ha recibido una solicitud para detener la prueba actualmente en ejecución.
+Asegúrese de que el sistema RQM tenga conectividad con el repositorio remoto y de que el archivo exista.
+Asegúrese de que el sistema RQM tenga conectividad con el repositorio remoto y de que el directorio exista.
+Los requisitos de rendimiento notificados a RQM se basarán en el intervalo de tiempo predeterminado.
+El adaptador está intentando conectarse a RQM utilizando el área de proyecto predeterminada.
+Los valores que normalmente están correlacionados incluyen indicaciones de fecha y hora, fechas, ID y otras series alfanuméricas.
+El código de correlación de datos no ha podido utilizar el valor esperado de la expresión regular.
+No se han podido añadir usuarios porque el ejecutor no está en un estado ejecutable.
+Los estados pasados se muestran en verde y los estados fallidos se muestran en rojo.
+Este gráfico proporciona una idea general de los tiempos transcurridos para cada transacción.
+Si los resultados del ping fallan, utilice en su lugar la dirección IP del entorno de trabajo.
+En las máquinas de agente, establezca el distintivo de depuración opcional en el archivo majordomo.config .
+En unos diez segundos debería recoger automáticamente los cambios en majordomo.config.
+En su lugar, se muestran los controles del grabador de la otra versión del producto.
+Examine el registro de prueba para ver los mensajes de error que genera el sistema en pruebas.
+Al probar activos compartidos, la ejecución falla con un error de modelo de bajo nivel.
+Marque este recuadro de selección para permitir el acceso a los informes desde un navegador web.
+Los bucles proporcionan un control más sofisticado que la ejecución de una secuencia simple de pruebas consecutivas.
+A continuación, en el nivel de planificación, escriba el número inicial de usuarios a ejecutar.
+Seleccione los bytes que desea inspeccionar y, a continuación, pulse con el botón derecho del ratón para manipular los datos seleccionados.
+Esta página sólo está disponible cuando el editor binario está en modalidad de sólo lectura.
+Se descartarán todos los caracteres que no sean válidos en el esquema de codificación actual.
+Sin embargo, en determinadas condiciones, es posible que desee cambiar el nivel de determinación de problemas.
+Puede cambiar el comportamiento del grabador cambiando los valores de preferencia.
+También puede crear un informe que compare los resultados de distintas ejecuciones.
+Abra la interfaz de red con la que desea asociar los alias de IP.
+También puede utilizar un archivo de proceso por lotes para añadir y suprimir los alias.
+El ejemplo siguiente adjunta la dirección IP 9.37.207.29 a la interfaz de red eth0 :
+El alias debe estar definido en la misma subred que la interfaz de red.
+Normalmente, se proporciona un nombre de configuración que es similar al nombre de planificación.
+La línea de mandatos siguiente crea un certificado firmado con la clave privada CA.
+La línea de mandatos siguiente crea un certificado que es válido durante 365 días.
+Repita este paso para crear tantos certificados digitales como sea necesario para las pruebas.
+El nombre del archivo de certificado de CA que se debe utilizar para firmar otro certificado.
+Utilice KeyTool para crear y añadir tantos certificados digitales como desee.
+Ahora tiene un almacén de certificados digitales que puede utilizar con pruebas.
+La página contiene una tabla de requisitos de rendimiento que se aplican a la planificación.
+Un requisito estándar puede hacer que una prueba tenga un veredicto de fallo.
+Los elementos deben ser del mismo tipo, por ejemplo, todos los elementos de página.
+Para crear una prueba, registre interacciones representativas con una aplicación.
+Al crear una planificación, puede emular con precisión las acciones de usuarios individuales.
+Al establecer etapas, puede modelar cargas de trabajo que reflejen el uso real a lo largo del tiempo.
+El segundo color se asigna al segundo elemento gráfico, y así sucesivamente.
+Puede cambiar el reino, el nombre de usuario y la contraseña de Kerberos al editar pruebas.
+En el Navigator, vaya a la prueba y efectúe una doble pulsación en el nombre de la prueba.
+La lista de ubicaciones muestra si el alias de IP está habilitado en esa ubicación.
+Marque el recuadro de selección situado junto a las interfaces que desea utilizar.
+Después de la ejecución también, puede volver a generar los resultados para su visualización y análisis.
+Las pruebas, que son hijos del bucle, se controlan mediante el bucle.
+La segunda etapa tiene una tasa de cambio de 4 minutos y un tiempo de liquidación de 4 minutos:
+Para aplicar el cambio a todas las instancias de dicho informe, guarde el informe.
+Seleccione esta opción para forzar que el gráfico utilice todo el ancho de la vista.
+Seleccione esta opción para cambiar el valor de multiplicador para el eje X (sólo gráficos de líneas).
+Esto es útil cuando se visualizan los resultados durante una ejecución de prueba (sólo gráficos de líneas).
+Los datos de esta página dependen del tipo de gráfico que haya seleccionado.
+Para configurar Internet Explorer para que utilice SPNEGO (Simple and Protected GSS-API Negotiation Mechanism):
+Escriba el URL del nombre de host para el que desea habilitar SSO.
+Para configurar Mozilla Firefox para utilizar SPNEGO (Simple and Protected GSS-API Negotiation Mechanism):
+Abra la vista Ejecuciones de pruebas de rendimiento, que muestra los detalles de la ejecución.
+Asegúrese de que el primer recuadro de diálogo contiene los proyectos en el primer nivel.
+De forma predeterminada, el editor de registro de prueba utiliza Bugzilla como sitio de seguimiento de defectos.
+En el área Detalles de elemento de planificación, añada el número de iteraciones a bucle.
+La ponderación determina la probabilidad estadística de que se seleccione un elemento específico.
+Seleccione esta opción si sólo está interesado en el número de usuarios.
+Las acciones de planificación notifican el número de usuarios activos y completados en la ejecución.
+Las acciones de prueba secundarias incluyen todas las acciones de prueba primarias más las acciones relacionadas con elementos de página HTTP.
+Los mensajes de configuración, que incluyen especificaciones de hardware o perfiles del sistema, no requieren ninguna acción correctiva.
+En función del valor que seleccione, los registros pueden llegar a ser bastante grandes.
+Para pruebas SAP , información de pantalla SAP , como por ejemplo puntos de verificación de título de pantalla SAP .
+Para pruebas SAP , información de elemento SAP (principalmente acciones Establecer propiedad o Llamar a método).
+El periodo de tiempo de espera empieza cuando el primer usuario virtual alcanza el punto de sincronización.
+Los resultados agregados se vuelven a calcular para reflejar sólo los datos del rango de tiempo seleccionado.
+Los datos binarios de la solicitud se transforman utilizando el adaptador de transformación especificado.
+Por ejemplo, el texto en idiomas que utilizan un juego de caracteres de doble byte se vuelve ilegible.
+Puede crear sus propias transformaciones de datos para transformar datos binarios en pruebas.
+A continuación, puede enviar el informe por correo electrónico o publicarlo en un servidor web.
+Para analizar más los datos, pegue el informe exportado en un programa de hoja de cálculo.
+Expanda el árbol, si es necesario, para visualizar el tipo de informe que desea exportar.
+En el Navigator, efectúe una doble pulsación en la ejecución cuyos contadores desea exportar.
+Desmarque el recuadro de selección para aplicar el cambio sólo a la etapa actual.
+En un hipervisor dedicado, el hardware no se comparte con otros sistemas operativos.
+Para aplicar la carga para el grupo de usuarios ficticio, especifique el número de usuarios.
+La propiedad CLOUD_ROLE está disponible en los activos de ubicación de nube del proyecto.
+Algunos de los aspectos de carga para una ejecución de planificación de nube se mencionan aquí:
+Se puede utilizar un código promocional opcional junto con un número de pedido.
+Puede personalizar el color de los informes con o sin utilizar una expresión.
+Si no selecciona la casilla de verificación, el informe no se genera.
+Por ejemplo, puede especificar horas de inicio y detención personalizadas por estas razones:
+Se necesita una clave de licencia de protocolo para utilizar extensiones de protocolo que no sean HTTP.
+Un sistema sometido a prueba podría reaccionar a un cambio repentino en la población de usuarios.
+Si selecciona esta opción, debe ver los registros para ver los mensajes de error.
+Para pruebas HTTP, esta opción informa de acciones relacionadas con la página (intentos, aciertos y puntos de verificación).
+Para pruebas HTTP, esta opción notifica información relacionada con elementos de página.
