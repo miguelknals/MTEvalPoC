@@ -4,9 +4,9 @@
 We want to evaluate the quality of 3 machine translations (MT) systems: Google Translator MT,
 DeepL MT and Watson MT, based on human translation (HT), but also without human translation. 
 
-This evaluation is based on aprox 8500 words extracted from an IBM online help, that has been
-human translated (8 years ago based on the old  IBM MT model (probably a neuronal RNN)). So,
-be aware, human translations is highly biased onto Watson MT.) .There will be 3 MT translations 
+This evaluation is based on aprox 8500 words extracted from an IBM online help, that was
+human translated (8 years ago based, very probably with some RNN or statistical MT)). So,
+be aware, human translations probably will be biased to Watson MT (from IBM). There will be 3 MT translations 
 for Watson, DeepL and Google.  The exercise here to explain how to reach "actual" results.  
  
  
