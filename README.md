@@ -74,7 +74,7 @@ Paper -> COMET: A Neural Framework for MT Evaluation (https://arxiv.org/pdf/2009
 Implementation based on -> https://github.com/Unbabel/COMET
 
 
-Results for Unbabel/wmt22-comet-da using human translation as reference
+Results for Unbabel/wmt22-comet-da (also based on XLM-RoBERTa ) using human translation as reference
 
 | Model | Mean| Std Dev |
 | :---:   | :---: |:---: |
@@ -84,7 +84,8 @@ Results for Unbabel/wmt22-comet-da using human translation as reference
 
 ![info](docs/COMET_with_ref.png)
 
-a) Results are also very close, but is interesting that as expected, but notice how Watson MT is on first place.
+a) Results are also very close, but notice how Watson MT is on first place (I would expect that as human reference
+is based in an human translation based on an old IBM model ).
 
 ## 1.7 Other references
 
