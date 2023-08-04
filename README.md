@@ -3,10 +3,11 @@
 ## 1.2 Intro
 We want to evaluate the quality of 3 machine translations (MT) systems: Google Translator MT,
 DeepL MT and Watson MT, based on human translation (HT), but also without human translation. 
+
 This evaluation is based on aprox 8500 words extracted from an IBM online help, that has been
- human translated (8 years ago based on the old  IBM MT model (probably a neuronal RNN)). So,
- be aware, human translations is highly biased onto Watson MT.) .There will be 3 MT translations 
- for Watson, DeepL and Google.  The exercise here to explain how to reach "actual" results.  
+human translated (8 years ago based on the old  IBM MT model (probably a neuronal RNN)). So,
+be aware, human translations is highly biased onto Watson MT.) .There will be 3 MT translations 
+for Watson, DeepL and Google.  The exercise here to explain how to reach "actual" results.  
  
  
  ## 1.3 Files 
@@ -44,7 +45,7 @@ b) MT quality probably is "low" based on current translations (many times, score
 - Most of the BLEU score are based in tokenized strings.
 - There are several BLEU score implementations (BLEU4Python ( https://github.com/zhyack/BLEU4Python ) (Note that files need to be tokenized), OpenMT (from MOSES), sacremoses, blue package, ...)
 
-## 1.5 2st test -  Cross-Lingual Similarity Estimation of MT proposals using a Hugging Face Sentence-BERT models
+## 1.5 2nd test -  Cross-Lingual Similarity Estimation of MT proposals using a Hugging Face Sentence-BERT models
 
 Many times we do not have a human translation, so we cannot verify the MT quality. 
 One line of work has been based on the sentence encoding (using sentence encoders).  An encoder maps sentences with vectors. Sentences with similar representation vectors, are similar (semantically) .  Based on this idea, there is BERTScore, based on transformer BERT language models, that can be trained or distilled to create agnostic language embedding, and then use cousins similarity to compare the sentences.  
@@ -64,7 +65,7 @@ paraphrase-xlm-r-multilingual-v1
 a) Graph is somehow misleading, notice how numeric results are very similar, if we take in account 95% certainty (2 x std.dev), none is better than other.
 b) Very interesting though that the GOLD translation (human verified translation) is NOT chosen as the best one, probably because of  a)
 
-## 1.6 3st test -  COMET using model WITH  references (Unbabel/wmt22-comet-da)
+## 1.6 3rd test -  COMET using model WITH  references (Unbabel/wmt22-comet-da)
 
 COMET is being used by Microsoft as main MT metric. Somehow a black box. 
 
@@ -88,5 +89,7 @@ a) Results are also very close, but is interesting that as expected, but notice 
 ## 1.7 Other references
 
 BLUE score from multi-bleu-detok.perl in OpenNMT (from Moses) -> https://github.com/OpenNMT/OpenNMT-py
+
 BLEU scacremoses (python package) -> https://github.com/alvations/sacremoses
+
 BLUE bleu package  -> https://github.com/zhijing-jin/bleu
