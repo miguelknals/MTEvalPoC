@@ -16,7 +16,7 @@ for Watson, DeepL and Google.  The exercise here to explain how to reach "actual
 - ra_target.txt (Target translation in Spanish) (Human translation based on IBM's MT available at the time. 8 years ago)
 - ra_target_google.txt (MT for Google Translator)  (Translated from the public Google Translator )
 - ra_target_deepl.txt (MT for DeepL) (translated from the public DeepL)
--  ra_target_watson.txt (Translated with latest IBM MT)
+-  ra_target_watson.txt (Translated with Watson MT)
 
 ## 1.4 1st test -  MT evaluation vs human translation (HT) (BLEU SCORE)
 We will use the BLEU score, one of the most widely used.  For reference:
