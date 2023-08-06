@@ -7,7 +7,10 @@ DeepL MT and Watson MT, based on human translation (HT), but also without human 
 This evaluation is based on aprox 8500 words extracted from an IBM online help, that was
 human translated (8 years ago based, very probably with some RNN or statistical MT)). So,
 be aware, human translations probably will be biased to Watson MT (from IBM). There will be 3 MT translations 
-for Watson, DeepL and Google.  The exercise here to explain how to reach "actual" results.  
+for Watson, DeepL and Google.  The exercise here to explain how to reach "actual" results.
+
+Probably more data should be need it and data probably verified, but looks like
+all MT provide similar values according standard metrics.
  
  
  ## 1.3 Files 
@@ -87,7 +90,38 @@ Results for Unbabel/wmt22-comet-da (also based on XLM-RoBERTa ) using human tran
 a) Results are also very close, but notice how Watson MT is on first place (I would expect that as human reference
 is based in an human translation based on an old IBM model ).
 
-## 1.7 Other references
+## 1.7 4rd test -  COMET using model WITHOUT  references (Unbabel/wmt22-cometkiwi-da)
+
+** NOTE: This model is not suitable for commercial purposes an requires
+huggin face login (you need to create a tooken) **
+
+Results for Unbabel/wmt22-cometkiwi-da WIHTOUT human translation as reference.
+Also you can evalutate the actual translation. Also notice how actual translation
+is not selected as the best one.
+
+| Model | Mean| Std Dev |
+| :---:   | :---: |:---: |
+| GOLD  | 0.8277 | 0.0626 |
+| WATSON  | 0.8310 | 0.0655 |
+| DEEPL  | 0.8228 | 0.1036 |
+| GOOGLE | 0.8421 | 0.0490 |
+
+![info](docs/COMET_without_ref.png)
+
+a) Results are also very close, but notice how Watson MT is on first place (I would expect that as human reference
+is based in an human translation based on an old IBM model ).
+
+## 1.8 Refernce less systems (COMET vs SBERT)
+
+Last intersting note, how COMET and SBERT, normalizing to 1, provide
+very similar results (selecting GOOGLE as best, WATSON and GOLD similar and DEEPL
+worsts
+
+
+
+
+
+## 1.9 Other references
 
 BLUE score from multi-bleu-detok.perl in OpenNMT (from Moses) -> https://github.com/OpenNMT/OpenNMT-py
 
