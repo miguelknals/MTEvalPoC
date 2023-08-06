@@ -92,8 +92,8 @@ is based in an human translation based on an old IBM model ).
 
 ## 1.7 4rd test -  COMET using model WITHOUT  references (Unbabel/wmt22-cometkiwi-da)
 
-** NOTE: This model is not suitable for commercial purposes an requires
-huggin face login (you need to create a tooken) **
+**NOTE: This model is not suitable for commercial purposes an requires
+huggin face login (you need to create a tooken)**
 
 Results for Unbabel/wmt22-cometkiwi-da WIHTOUT human translation as reference.
 Also you can evalutate the actual translation. Also notice how actual translation
