@@ -1,0 +1,17 @@
+# original doc c:\u\usr\pro\2022_biclean\casiopea.txt
+# biclean2 environment
+conda create --name biclean2 python=3.9
+conda activate comet
+# from https://pytorch.org/get-started/previous-versions/
+# CUDA 11.3 (la que tengo es 11.4) 
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+# for cpu conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cpuonly -c pytorch
+conda install -c anaconda docopt
+# sacrebleu
+conda install -c conda-forge sacrebleu
+# sacremoses
+conda install -c conda-forge sacremoses
+# comet
+pip install unbabel-comet
+# login to huggingface_hu
+pip install --upgrade huggingface_hu
