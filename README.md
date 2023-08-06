@@ -111,7 +111,7 @@ is not selected as the best one.
 a) Results are also very close, but notice how Watson MT is on first place (I would expect that as human reference
 is based in an human translation based on an old IBM model ).
 
-## 1.8 Refernce less systems (COMET vs SBERT)
+## 1.8 Referenceless systems (COMET vs SBERT)
 
 Last intersting note, how COMET and SBERT, normalizing to 1, provide
 very similar results (selecting GOOGLE as best, WATSON and GOLD similar and DEEPL
