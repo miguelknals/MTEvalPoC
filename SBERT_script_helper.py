@@ -8,6 +8,14 @@
 
 # models 
 
+
+
+model_l=["distiluse-base-multilingual-cased-v1",
+         "distiluse-base-multilingual-cased-v2",
+"paraphrase-multilingual-MiniLM-L12-v2",
+"paraphrase-multilingual-mpnet-base-v2"]
+
+
 model_l=["all-MiniLM-L12-v2",
 "all-MiniLM-L6-v2",
 "all-distilroberta-v1",
@@ -22,15 +30,8 @@ model_l=["all-MiniLM-L12-v2",
 "paraphrase-multilingual-MiniLM-L12-v2",
 "paraphrase-multilingual-mpnet-base-v2"]
 
-model_l=["distiluse-base-multilingual-cased-v1",
-         "distiluse-base-multilingual-cased-v2",
-"paraphrase-multilingual-MiniLM-L12-v2",
-"paraphrase-multilingual-mpnet-base-v2"]
-
 model_l=["paraphrase-xlm-r-multilingual-v1"]
-
-
-
+model_l=["paraphrase-multilingual-mpnet-base-v2"] # 
 
 
 data_l=[
@@ -39,6 +40,18 @@ data_l=[
     ["SPA", "DEEPL","./text/ra_source.txt","./text/ra_target_deepl.txt"],
     ["SPA", "GOOGLE","./text/ra_source.txt","./text/ra_target_google.txt"]
     ]
+
+data_l=[
+    ["SPA", "HT","./text/1216535_src.txt","./text/1216535_tgt.txt",
+     "./text/1216535_SBERT_results.txt"],
+     ["SPA", "MT","./text/1216535_src.txt","./text/1216535_tgt_MT.txt",
+     "./text/1216535_SBERT_results.txt"],
+      ["SPA", "NEGERR","./text/1216535_src.txt","./text/1216535_tgt_NEGATIVE.txt",
+     "./text/1216535_SBERT_results.txt"],
+      ["SPA", "NOUNERR","./text/1216535_src.txt","./text/1216535_tgt_QRADAR.txt",
+     "./text/1216535_SBERT_results.txt"],
+    ]
+
 
 
 
@@ -50,7 +63,7 @@ with open("SBERT_script_helper.sh", 'w', encoding="utf-8") as file_helper:
         for item in data_l:
             src_file=item[2]
             tgt_file=item[3]
-            outf="results.txt"
+            outf=item[4]
             ref=item[1]
             language=item[0]
             cmd1=mask1.format(src_file,tgt_file,outf,ref,language,model)

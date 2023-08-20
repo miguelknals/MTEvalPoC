@@ -1,0 +1,121 @@
+Cómo utilizar IBM Security QRadar EDR para rastrear un ataque muy sofisticado contra la cadena de suministro de una instalación de gestión de recursos hídricos
+Protección de la infraestructura crucial
+actor de amenaza externo ataca a una instalación de gestión de recursos hídricos de Europa que se encarga de distribuir agua a casi un millón de personas.
+En un principio, en la instalación dan por hecho que la nueva actividad es legítima.
+Los atacantes consiguen comprometer los servidores y despliegan medidas contra los análisis forenses mediante ransomware.
+El desafío de seguridad
+Posición vulnerable como infraestructura crucial encargada de la distribución de agua en la región
+Incapacidad de detección y búsqueda de amenazas sin archivos y de movimientos laterales
+Falta de protección contra el ransomware
+Recursos limitados para la seguridad de los endpoints
+Los sitios de infraestructura crucial deben adaptarse continuamente para poder gestionar la complejidad del riesgo cibernético y la exposición a actores de amenazas complejas, ambas en aumento.
+El tipo de recursos que se gestionan hace que las infraestructuras cruciales sean el objetivo perfecto de los ataques de alto impacto y la exﬁltración de datos altamente confidenciales.
+Aparte de las herramientas tradicionales de análisis de la red, la instalación de gestión de recursos hídricos no contaba con una supervisión de los endpoints ni con capacidades de respuesta en caso de ataque.
+Con sus herramientas no se podía realizar un seguimiento de las operaciones entre endpoints, como los movimientos laterales.
+Además, por la falta general de recursos de TI, el operador tuvo que contratar a proveedores externos que le ayudaran a gestionar servicios esenciales como el correo electrónico, el DNS, las redes privadas virtuales y los cortafuegos. Esto sumó más complejidad aún a la hora de coordinar los esfuerzos de los diferentes proveedores.
+Un
+La limpieza del segmento de red infectado se realizó en cuestión de
+y se evitaron daños que podrían haber paralizado un servicio esencial para los ciudadanos
+segundos
+La incidencia se cerró en
+sin pérdida de datos, interrupción de servicios esenciales ni daños a endpoints
+2 días
+El ataque afectó a una docena de dispositivos antes de la fase de despliegue del ransomware y a varios miles después.
+Visión general de la solución
+IBM® Security QRadar EDR utiliza NanoOS —diseñado para ser indetectable— con el objetivo de proporcionar un nivel excepcional de visibilidad en los endpoints y en la infraestructura
+Rastrea de manera nativa los movimientos laterales y los intentos de inicio de sesión anómalos
+Proporciona protección nativa contra los ataques de ransomware
+Ofrece una potente interfaz de búsqueda de amenazas que permite el seguimiento y la reconstrucción de incidentes muy complejos
+La instalación de gestión de recursos hídricos ejecutó el software IBM Security QRadar EDR en todos los servidores, ordenadores locales y portátiles de la instalación para supervisar continuamente todos los activos y rastrear e investigar con prontitud posibles fallos de seguridad.
+Mediante los motores de IA duales integrados de la solución y el análisis detallado del comportamiento, el cliente consiguió una visibilidad total sobre la infraestructura. Gracias a este avance, se lograron realizar consultas en tiempo real a los endpoints y búsquedas ampliadas, tanto de indicadores de compromiso (IOC) como de indicadores de comportamiento (IOB), además de llevar a cabo una minería de datos avanzada con el objetivo de detectar amenazas latentes.
+Seis meses después de la implementación, el agente QRadar EDR detectó una actividad anómala y empezó a rastrear a los atacantes hasta llegar a un conjunto especíﬁco de datos.
+Ni el software antivirus tradicional ni el sistema de detección de intrusiones (IDS) del cliente detectaron ninguna actividad hasta la última fase del ataque.
+Si el cliente no hubiera desplegado QRadar EDR, los atacantes habrían conseguido obtener y exfiltrar los datos.
+Ataque a la cadena de suministro
+El día que comenzó la infracción, QRadar EDR detectó un inicio de sesión sospechoso en un endpoint del segmento de red sin privilegios desde un servidor VPN.
+El equipo de seguridad dio por hecho que el inicio de sesión se debía a tareas de mantenimiento de un proveedor de seguridad externo, de manera que asignó una prioridad baja a la incidencia.
+Los atacantes desplegaron un malware inicial, utilizado principalmente para mapear el segmento de la red en busca de rutas directas a la red con privilegios.
+Después de descubrir que no había rutas disponibles, los atacantes desplegaron un segundo malware en memoria para obtener credenciales que reutilizar en movimientos laterales posteriores.
+Una vez obtenidas las credenciales, los atacantes consiguieron acceder al controlador de dominio y, poco después, a un servidor de archivos que contenía documentos internos.
+Análisis de la causa principal
+El inicio de sesión anómalo se produjo fuera del horario de trabajo, desde un endpoint que suele interactuar con los servidores pero no con las estaciones de trabajo.
+El canal VPN estaba gestionado por un proveedor externo que también se encargaba de mantener el servidor de correo y los cortafuegos, además de la propia VPN.
+Debido a la naturaleza del acceso, la alerta se mantuvo activa para rastrear todas las operaciones, pero en ese punto, el equipo de seguridad interno dio por hecho que se estaban realizando tareas de mantenimiento en la infraestructura, de manera que asignó una prioridad baja a la incidencia.
+Al día siguiente, QRadar EDR lanzó una segunda alerta que mostraba la actividad de un malware ligero utilizado para escanear la red interna, seguida de otra alerta que señalaba la presencia de un vector en memoria con capacidades de registro de pulsaciones de teclas y recopilación de credenciales.
+En ese momento, el equipo de seguridad se centró en estas incidencias. Iniciaron una búsqueda de amenazas a la vez que los atacantes estaban accediendo, mediante una serie de movimientos laterales, a uno de los controladores de dominio.
+El equipo decidió aprovechar la invisibilidad de la tecnología NanoOS para seguir el rastro de los atacantes durante el mayor tiempo posible para entender el modus operandi y sus objetivos.
+Cuando los atacantes intentaron acceder al servidor de archivos que contenía información altamente confidencial, el equipo los detuvo e inició el plan de erradicación.
+Mientras se reparaban los distintos dispositivos, los atacantes se dieron cuenta de que, a pesar de disponer de un alto nivel de acceso, no lograban acceder a la información que buscaban.
+Al darse cuenta de que probablemente habían sido descubiertos, desplegaron un ransomware en toda la infraestructura para borrar su rastro.
+Ataque y reconstrucción
+Una vez que los motivos del ataque estuvieron claros, lo importante para el operador era conocer el ataque exhaustivamente para así reforzar todos los puntos débiles de la infraestructura.
+El ataque afectó a una docena de dispositivos antes de la fase de despliegue del ransomware (fase 1) y a varios miles después (fase 2).
+Los atacantes lograron obtener acceso al proveedor de la VPN y del servidor de correo y los utilizaron como punto de entrada inicial a la red interna.
+Los atacantes reutilizaron las credenciales del proveedor para entrar en diferentes máquinas y, finalmente, se decantaron por una estación de trabajo específica.
+En ese punto, utilizaron una cadena de herramientas para escanear la red interna e identificar los objetivos de los movimientos laterales.
+En la fase ﬁnal, utilizaron el propio controlador de dominio para propagar el ransomware en todos los dispositivos.
+El proceso
+El cliente automatizó el proceso de limpieza mediante el módulo de remediación de QRadar EDR y utilizó la protección antirransomware de la solución para evitar que se perdieran datos y que se interrumpieran las operaciones.
+Desastre evitado: respuesta y corrección
+La instalación de gestión de recursos hídricos aseguró el acceso a la VPN y llevó a cabo una sesión de detección de amenazas que identificó cada una de las máquinas a las que los atacantes consiguieron acceder.
+El módulo de remediación de QRadar EDR automatizó el proceso de limpieza y el segmento se limpió en cuestión de segundos.
+La instalación obtuvo todas las herramientas utilizadas durante la fase de reconocimiento y movimiento lateral e inmediatamente propagó una política que incluía IOC y comportamientos en toda la infraestructura.
+No se identificaron más hosts comprometidos después de la implementación de la política.
+Las credenciales se restablecieron de inmediato para todos los usuarios y el ataque de ransomware no requirió ninguna otra intervención porque el cliente había activado la protección antirransomware de QRadar EDR para todos los dispositivos, lo cual evitó la pérdida de información importante y la interrupción de las actividades normales.
+La incidencia se pudo cerrar el segundo día, sin pérdida de datos, sin que se interrumpieran los servicios esenciales y sin que se vieran afectados los endpoints.
+Si la instalación no hubiera empleado QRadar EDR, los atacantes seguramente habrían exfiltrado información confidencial, podrían haber permanecido activos durante un largo periodo de tiempo, y la infraestructura podría haber quedado inutilizada por el ataque final de ransomware.
+Semejante ataque habría tenido un enorme impacto en la capacidad de las instalaciones para seguir prestando servicios esenciales a los ciudadanos de la región, o incluso podría haber llegado a bloquearlos por completo.
+Dada la dificultad para identificar los ataques a la cadena de suministro, la instalación podría haber sido vulnerada de nuevo a través del mismo canal si no se hubiera dispuesto de información forense que permitiera determinar la causa de la infracción.
+© Copyright IBM Corporation 2023.
+IBM Corporation, IBM Security, New Orchard Road, Armonk, Nueva York 10504
+Producido en los Estados Unidos de América, junio de 2023.
+IBM, el logotipo de IBM, IBM Security y QRadar son marcas comerciales o marcas registradas de International Business Machines Corporation, en los Estados Unidos y/o en otros países.
+Los demás nombres de productos y servicios pueden ser marcas comerciales de IBM u otras empresas.
+Puede consultar una lista de las marcas comerciales actuales de IBM en ibm.com/trademark.
+Este documento es vigente en la fecha de publicación inicial y puede ser modificado en cualquier momento por IBM.
+No todas las ofertas están disponibles en todos los países en los que IBM opera.
+Todos los ejemplos de clientes citados o descritos se presentan como ilustración de la forma en que algunos clientes han utilizado los productos de IBM y los resultados que pueden haber obtenido.
+Los costes medioambientales y las características de rendimiento reales variarán en función de las configuraciones y condiciones de cada cliente.
+Por lo general, no se pueden ofrecer resultados esperados, ya que los resultados de cada cliente dependerán totalmente de los sistemas y servicios solicitados por el cliente.
+LA INFORMACIÓN EN ESTE DOCUMENTO SE PROPORCIONA "TAL CUAL", SIN NINGUNA GARANTÍA, EXPRESA O IMPLÍCITA, LO QUE INCLUYE GARANTÍAS DE COMERCIALIZACIÓN O ADECUACIÓN A UN PROPÓSITO ESPECÍFICO, Y CUALQUIER GARANTÍA O CONDICIÓN DE NO INFRACCIÓN.
+Los productos de IBM están garantizados según los términos y condiciones de los acuerdos bajo los que se proporcionan.
+Declaración de buenas prácticas de seguridad: ningún producto o sistema de TI debe considerarse completamente seguro y ningún producto, servicio o medida de seguridad por sí mismo puede ser completamente efectivo para prevenir el uso o acceso incorrecto.
+IBM no garantiza que ningún sistema, producto o servicio sea inmune a, ni que haga que su empresa será inmune a, la conducta maliciosa o no permitida de cualquier parte.
+Acerca de la instalación de gestión de recursos hídricos
+Esta instalación de gestión de recursos hídricos de Europa se encarga de gestionar y distribuir agua a cerca de un millón de personas.
+La instalación está clasificada como infraestructura crucial con servicios esenciales.
+Componente de la solución
+IBM® Security QRadar EDR
+Cómo utilizar IBM Security QRadar EDR para rastrear un ataque muy sofisticado contra la cadena de suministro de una instalación de gestión de recursos hídricos
+Cómo utilizar IBM Security QRadar EDR para rastrear un ataque muy sofisticado contra la cadena de suministro de una instalación de gestión de recursos hídricos
+Infraestructura crucial
+rspencer@us.ibm.com
+Una instalación de gestión de recursos hídricos de Europa utiliza IBM Security QRadar EDR para remediar ciberataques que, de otro modo, podrían haber bloqueado este servicio esencial a un millón de ciudadanos
+Ciberseguridad
+infraestructura crucial
+gestión de recursos hídricos
+Europa
+hackers
+malware
+ransomware
+remediación
+resolución
+resiliencia
+automatización
+IBM
+QRadar
+detección y respuesta de endpoint
+EDR
+© Copyright IBM Corporation 2023.
+IBM Corporation, IBM Security, New Orchard Road, Armonk, NY 10504Producido en los Estados Unidos de América, junio de 2023IBM, el logotipo de IBM, IBM Security y QRadar son marcas comerciales o marcas registradas de International Business Machines Corporation, en los Estados Unidos y/o en otros países.
+Los demás nombres de productos y servicios pueden ser marcas comerciales de IBM u otras empresas.
+Puede consultar una lista actual de las marcas comerciales de IBM en ibm.com/trademark.
+Este documento es vigente en la fecha de publicación inicial y puede ser modificado en cualquier momento por IBM.
+No todas las ofertas están disponibles en todos los países en los que IBM opera.
+Todos los ejemplos de clientes citados o descritos se presentan como ilustración de la forma en que algunos clientes han utilizado los productos de IBM y los resultados que pueden haber obtenido.
+Los costes medioambientales y las características de rendimiento reales variarán en función de las configuraciones y condiciones de cada cliente.
+Por lo general, no se pueden ofrecer resultados esperados, ya que los resultados de cada cliente dependerán totalmente de los sistemas y servicios solicitados por el cliente.
+LA INFORMACIÓN EN ESTE DOCUMENTO SE PROPORCIONA "TAL CUAL", SIN NINGUNA GARANTÍA, EXPRESA O IMPLÍCITA, LO QUE INCLUYE GARANTÍAS DE COMERCIALIZACIÓN O ADECUACIÓN A UN PROPÓSITO ESPECÍFICO, Y CUALQUIER GARANTÍA O CONDICIÓN DE NO INFRACCIÓN.
+Los productos de IBM están garantizados según los términos y condiciones de los acuerdos bajo los que se proporcionan.
+Declaración de buenas prácticas de seguridad: ningún producto o sistema de TI debe considerarse completamente seguro y ningún producto, servicio o medida de seguridad por sí mismo puede ser completamente efectivo para prevenir el uso o acceso incorrecto.
+IBM no garantiza que ningún sistema, producto o servicio sea inmune a, ni que haga que su empresa será inmune a, la conducta maliciosa o no permitida de cualquier parte.

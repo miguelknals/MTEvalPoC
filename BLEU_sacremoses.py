@@ -10,8 +10,8 @@ sacreM_Tok = MosesTokenizer(lang="en")
 
 
 if __name__ == '__main__':     
-    hyp_file = os.path.join(".","text","ra_target.txt") # laika
-    ref_file = os.path.join(".","text","ra_target_google.txt") # laika
+    hyp_file = os.path.join(".","text","1216535_tgt.txt") # laika
+    ref_file = os.path.join(".","text","1216535_tgt_MT.txt") # laika
     preds=[]; refs=[]  # REFS -> POST and  PRED -> PRE   
     with open (hyp_file,"r", encoding="UTF-8") as hyp, \
          open (ref_file, "r", encoding="UTF-8") as ref:

@@ -12,7 +12,7 @@
 
 """
 Usage:
-    COMET_bitext_and_ref_score.py --src=<file> --tgt_HT==<file> --tgt_MT=<file>  --ref=<reference> --lang=<lang>  [options]
+    COMET_bitext_and_ref_score.py --src=<file> --tgt_HT==<file> --tgt_MT=<file>  --outf=<file> --ref=<reference> --lang=<lang>  [options]
     
 Options:
     -h --help                               show this screen.
@@ -30,6 +30,9 @@ from docopt import docopt
 import math
 from comet import download_model, load_from_checkpoint
 import statistics
+
+MIN_WORDS_TO_STUDY=5
+MAX_WORDS_TO_STUDY=50
 
 
 
@@ -61,6 +64,9 @@ if __name__ == "__main__" :
         print ("language         -> {}".format(language))
         model_name="Unbabel/wmt22-comet-da"
         print ("model (hardcoded) -> {}".format(model_name))
+        print ("Sentences between {} and {} words".format(MIN_WORDS_TO_STUDY, MAX_WORDS_TO_STUDY))
+        print ("****************************************")
+        
         
    
      
@@ -81,21 +87,23 @@ if __name__ == "__main__" :
             line_target_HT=file_target_HT.readline()
             if not line_source:
                 break
-            n_sentence+=1            
-            line_source=line_source.replace("\n","").replace("\t","")
-            line_target_MT=line_target_MT.replace("\n","").replace("\t","")
-            line_target_HT=line_target_HT.replace("\n","").replace("\t","")
-            source_sentence_list.append(line_source)
-            target_MT_sentence_list.append(line_target_MT)
-            target_HT_sentence_list.append(line_target_HT)
-            Dictionary_line = {}
-            Dictionary_line["src"]=line_source
-            Dictionary_line["mt"]=line_target_MT
-            Dictionary_line["ref"]=line_target_HT
-            data.append(Dictionary_line)
-            nitems-=1
-            if nitems==0:
-                break
+            n_sentence+=1   
+            num_words= len(line_source.split())
+            if num_words >= MIN_WORDS_TO_STUDY and num_words <= MAX_WORDS_TO_STUDY:                  
+                line_source=line_source.replace("\n","").replace("\t","")
+                line_target_MT=line_target_MT.replace("\n","").replace("\t","")
+                line_target_HT=line_target_HT.replace("\n","").replace("\t","")
+                source_sentence_list.append(line_source)
+                target_MT_sentence_list.append(line_target_MT)
+                target_HT_sentence_list.append(line_target_HT)
+                Dictionary_line = {}
+                Dictionary_line["src"]=line_source
+                Dictionary_line["mt"]=line_target_MT
+                Dictionary_line["ref"]=line_target_HT
+                data.append(Dictionary_line)
+                nitems-=1
+                if nitems==0:
+                    break
             
     model_path = download_model(model_name)
     model = load_from_checkpoint(model_path)
@@ -105,7 +113,7 @@ if __name__ == "__main__" :
 
     print(model_output)
     
-    with open("V.COMETREF"+ "." + model_name.replace("/","_") + "." +language + "."+ reference + \
+    with open(FileOutput+ "." + "V.COMETREF"+ "." + model_name.replace("/","_") + "." +language + "."+ reference + \
            ".csv", 'w', encoding="utf-8") as file_values:
         for score, src_stc, tgt_MT_stc in zip (model_output[0], \
                 source_sentence_list, target_MT_sentence_list):

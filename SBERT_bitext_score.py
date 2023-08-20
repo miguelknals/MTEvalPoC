@@ -18,6 +18,21 @@ Options:
 # Example python SBERT_bitex t_score.py --src=./text/ra_source.txt 
 # --tgt=./text/ra_target_google.txt --outf=results.txt --ref=GOOGLE 
 # --lang=SPA --model=paraphrase-xlm-r-multilingual-v1 
+#
+# multilingual models (0.91 0.92 0.93) 
+# model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+# model = SentenceTransformer('distiluse-base-multilingual-cased-v2')
+# model = SentenceTransformer('paraphrase-multilingual-mpnet-base-v2')
+# 
+# Chat GPT comment
+# Keep in mind that while this approach provides similarity scores, 
+# it's not exactly the same as BERTScore. BERTScore is a specialized
+# metric that has been designed and evaluated to provide better 
+# alignment with human judgments of translation quality. 
+# If you're looking for a comprehensive and accurate evaluation, 
+# BERTScore (or similar metrics) is recommended.
+#
+# Have not investigate if there is a BERTScore multilingual for MT
 
 
 from docopt import docopt
@@ -27,7 +42,8 @@ import statistics
 
 import torch
 
-
+MIN_WORDS_TO_STUDY=5
+MAX_WORDS_TO_STUDY=50
 
 
 # main
@@ -35,17 +51,6 @@ if __name__ == "__main__" :
     """ Main func.
     """    
     args = docopt(__doc__)
-    
-    # len (sys.argv) <3:
-    #    print ("Usage: xml-sax-parser-4-xlif.py <document> ")
-    #    print ("")
-    #    print (" <document> Document name to parse")
-    #    quit()     
-    #model = SentenceTransformer('all-MiniLM-L6-v2')
-    #model = SentenceTransformer('distiluse-base-multilingual-cased-v2')
-    #model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
-    #FileSource=sys.argv[1]
-    #FileTarget=sys.argv[2]
    
     model_name=args["--model"]    
     FileSource=args["--src"]    
@@ -68,9 +73,13 @@ if __name__ == "__main__" :
         print ("output file -> {}".format(FileOutput))
         print ("language    -> {}".format(language))
         print ("model       -> {}".format(model_name))
+        print ("Sentences between {} and {} words".format(MIN_WORDS_TO_STUDY, MAX_WORDS_TO_STUDY))
+        print ("****************************************")
+        
+        
             
     model = SentenceTransformer(model_name ,device='cuda:1')
-    nitems=0 # 0 means untill the end.
+    nitems=-200 # -1 means untill the end.
     source_sentence_list=[]
     target_sentence_list=[]
     with open(FileSource, 'r', encoding="utf-8") as file_source, \
@@ -80,9 +89,12 @@ if __name__ == "__main__" :
             line_target=file_target.readline()
             if not line_source:
                 break
-            source_sentence_list.append(line_source.replace("\n",""))
-            target_sentence_list.append(line_target.replace("\n",""))
-            nitems-=1
+            num_words= len(line_source.split())
+            if num_words >= MIN_WORDS_TO_STUDY and num_words  <= MAX_WORDS_TO_STUDY:
+                source_sentence_list.append(line_source.replace("\n",""))
+                target_sentence_list.append(line_target.replace("\n",""))
+                nitems-=1
+                
             if nitems==0:
                 break
     
@@ -99,7 +111,7 @@ if __name__ == "__main__" :
 
     cos_sim_list=[]
     n_sentence=0
-    with open("V.SBERT."+"."+model_name+"."+language + "."+ reference + ".csv", 'w', encoding="utf-8") as file_values:
+    with open(FileOutput+"."+"V.SBERT."+"."+model_name+"."+language + "."+ reference + ".csv", 'w', encoding="utf-8") as file_values:
         for src_stc, src_emb, tgt_stc, tgt_emb in zip (source_sentence_list, 
                 source_sentence_list_embeddings, target_sentence_list,
                 target_sentence_list_embeddings):
@@ -115,9 +127,13 @@ if __name__ == "__main__" :
                 print (src_stc)
                 print (tgt_stc)
                 print (cos_sim)
-    
+    #
     mean=statistics.mean(cos_sim_list)
     std_dev=statistics.stdev(cos_sim_list)
+    #
+    zipped= list(zip(cos_sim_list,source_sentence_list,target_sentence_list))
+    zipped.sort()
+    
     
     if verbose: 
         print ("Sentenc     -> {}".format(n_sentence))

@@ -51,7 +51,7 @@ b) MT quality probably is "low" based on current translations (many times, score
 ## 1.5 2nd test -  Cross-Lingual Similarity Estimation of MT proposals using a Hugging Face Sentence-BERT models
 
 Many times we do not have a human translation, so we cannot verify the MT quality. 
-One line of work has been based on the sentence encoding (using sentence encoders).  An encoder maps sentences with vectors. Sentences with similar representation vectors, are similar (semantically) .  Based on this idea, there is BERTScore, based on transformer BERT language models, that can be trained or distilled to create agnostic language embedding, and then use cousins similarity to compare the sentences.  
+One line of work has been based on the sentence encoding (using sentence encoders).  An encoder maps sentences with vectors. Sentences with similar representation vectors, are similar (semantically) .  
 
 The SBERT.net (https://www.sbert.net/docs/pretrained_models.html) provides a list of some models we can use, All the ones with "multilingual" are able to be used,  In Hugging Face (https://huggingface.co/sentence-transformers) there is even a larger list).   You can easily create some python implementation.  Here, paraphrase-xlm-r-multilingual-v1, based in xml-RoBERTa, a model well know for agnostic language embbeding. 
 paraphrase-xlm-r-multilingual-v1
@@ -67,6 +67,10 @@ paraphrase-xlm-r-multilingual-v1
 
 a) Graph is somehow misleading, notice how numeric results are very similar, if we take in account 95% certainty (2 x std.dev), none is better than other.
 b) Very interesting though that the GOLD translation (human verified translation) is NOT chosen as the best one, probably because of  a)
+
+**NOTE: This program evaluates multilingual similarity with Sentence BERT, but it is NOT exactly as BERTScore. As for 2021 there is no
+multilingual BERTScore.**
+
 
 ## 1.6 3rd test -  COMET using model WITH  references (Unbabel/wmt22-comet-da)
 

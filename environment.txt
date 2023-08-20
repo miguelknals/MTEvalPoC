@@ -1,5 +1,5 @@
 # original doc c:\u\usr\pro\2022_biclean\casiopea.txt
-# biclean2 environment
+# comet environment
 conda create --name biclean2 python=3.9
 conda activate comet
 # from https://pytorch.org/get-started/previous-versions/
@@ -11,7 +11,22 @@ conda install -c anaconda docopt
 conda install -c conda-forge sacrebleu
 # sacremoses
 conda install -c conda-forge sacremoses
+# sentence transformers
+conda install -c conda-forge sentence-transformers
 # comet
 pip install unbabel-comet
 # login to huggingface_hu
 pip install --upgrade huggingface_hu
+# numpy
+conda install numpy
+# matplog
+conda install -c conda-forge matplotlib
+# scpy
+conda install -c anaconda scipy
+
+
+
+conda create --name streamlit python=3.9
+conda install -c conda-forge streamlit
+conda install -c anaconda pandas
+conda install -c conda-forge yfinance
