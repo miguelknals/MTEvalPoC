@@ -1,4 +1,4 @@
-# 1 MTEvalPoC - Machine Translation evaluation examples (BLEU,  SBERT, COMET...)
+# 1 MTEvalPoC - Machine Translation evaluation examples (BLEU,  SBERT, COMET....)
 
 ## 1.2 Intro
 We want to evaluate the quality of 3 machine translations (MT) systems: Google Translator MT,
